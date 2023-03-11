@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended",
+    "prettier" // when use prettier with eslint(eslint-config-prettier dependencies)
+  ],
+  "plugins": ["prettier", "import"],
+  "rules": {
+    "import/extensions": "off",
+    "no-console": "off",
+    "no-plusplus": "off",
+    "no-use-before-define": "off",
+    "no-loop-func": "off"
+  },
+  "ignorePatterns": ["*config.js"]
+}

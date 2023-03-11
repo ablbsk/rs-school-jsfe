@@ -1,0 +1,22 @@
+.playground {
+	@include square-size(50rem);
+	position: relative;
+	border: 0.75rem solid saddlebrown;
+	border-radius: 1.25rem;
+
+	@media (max-width: 1440px) {
+		@include square-size(50rem);
+	}
+
+	@media (max-width: 1280px) {
+		@include square-size(45rem);
+	}
+
+	@media (max-width: 768px) {
+		@include square-size(40rem);
+	}
+
+	@media (max-width: 552px) {
+		@include square-size(30rem);
+	}
+}

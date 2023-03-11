@@ -1,0 +1,53 @@
+.footer {
+	margin: 2rem auto;
+}
+
+.footer__info {
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 1.6rem;
+}
+
+// ========================= SOUND ========================
+
+.sound {
+	@include square-size(3rem);
+	display: block;
+	cursor: pointer;
+}
+
+.sound--on {
+	background: url('../assets/icons/soundon.svg') center no-repeat;
+}
+
+.sound--off {
+	background: url('../assets/icons/soundoff.svg') center no-repeat;
+}
+
+// ========================= SIZES =========================
+
+.sizes__title {
+	font-size: 1.6rem;
+	text-align: center;
+	color: gold;
+}
+
+.sizes__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 1rem;
+}
+
+.sizes__list-item {
+	font-size: 1.6rem;
+	cursor: pointer;
+
+	&--active {
+		color: gold;
+		cursor: default;
+	}
+}

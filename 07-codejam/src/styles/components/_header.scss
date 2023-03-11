@@ -1,0 +1,42 @@
+.header {
+	margin: 3rem auto;
+}
+
+.header__title {
+	margin-bottom: 3rem;
+	text-align: center;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: gold;
+}
+
+.header__controls {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.header__button {
+	padding: 0.75rem 1.25rem;
+	background-color: $color-button;
+	color: $color-text-light;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 1.4rem;
+	transition: color 0.2s;
+	cursor: pointer;
+
+	&:hover {
+		color: gold;
+	}
+
+	&:disabled {
+		cursor: auto;
+		background-color: darkgrey;
+
+		&:hover {
+			color: $color-text-light;
+		}
+	}
+}
+
