@@ -1,0 +1,56 @@
+.logo {
+  display: block;
+  text-decoration: none;
+}
+
+.logo__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__title {
+  margin: 0;
+}
+
+.logo__subtitle {
+  @extend %font-base;
+  @include font($size: 1.3rem, $height: 110%, $style: normal, $spacing: 0.1em);
+
+  padding-left: 0.4rem;
+  padding-top: 1rem;
+}
+
+.logo--hamburger {
+  display: none;
+
+  @include media-mobile {
+    display: block;
+    margin-bottom: 160px;
+  }
+}
+
+.logo--hidden {
+  visibility: hidden;
+}
+
+// Main page
+.logo--primary > .logo__container {
+  > .logo__title {
+    color: $color-primary;
+  }
+
+  > .logo__subtitle {
+    color: $color-light-xl;
+  }
+}
+
+// Our pets page
+.logo--dark > .logo__container {
+  > .logo__title {
+    color: $color-dark-l;
+  }
+
+  > .logo__subtitle {
+    color: $color-dark-3xl;
+  }
+}
