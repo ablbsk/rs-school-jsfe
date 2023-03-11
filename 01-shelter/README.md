@@ -17,7 +17,7 @@
       <span>Our Pets page</span>
       <img src="https://user-images.githubusercontent.com/42908323/163872572-727efcb3-d8bf-4bb8-ad10-a2bdab68f465.png" alt="Shelter our pets page" />
     </details>
-3. Deploy: [Open](https://ablbsk-shelter.netlify.app/pages/main/)
+3. Deploy: [Open](https://ablbsk.github.io/rs-school-jsfe/01-shelter/pages/main/index.html)
 4. Cross-check score:
    - Week 1 — Shelter. Desktop — _93/100_  
    - Week 2 — Shelter. Adaptive — _99/100_  
