@@ -1,7 +1,8 @@
 # Shelter
 
 1. Task: [Open](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/stream1/shelter/README.md#shelter)  
-2. Screenshots:  
+2. Screenshots: 
+  
     <details>
       <summary>Desktop</summary>
       <span>Main page</span>
