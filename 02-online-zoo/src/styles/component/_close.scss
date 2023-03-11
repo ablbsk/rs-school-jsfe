@@ -1,0 +1,11 @@
+.close__icon {
+	@include icon-background(1.75rem, 1.75rem, "../assets/icons/close.svg");
+	cursor: pointer;
+	filter: brightness(0) saturate(100%) invert(78%) sepia(42%) saturate(6260%) hue-rotate(350deg) brightness(101%) contrast(99%);
+}
+
+.close__icon--popup {
+	@include icon-background(1.4rem, 1.4rem, "../assets/icons/close.svg");
+	margin: 1.2rem 1rem 0 0;
+	cursor: pointer;
+}

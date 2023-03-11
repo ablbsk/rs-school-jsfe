@@ -1,0 +1,83 @@
+.donate {
+	padding-bottom: 17.8rem;
+	background: $color-background-primary;
+
+	@include media-laptop-max {
+		padding-bottom: 3rem;
+	}
+
+	@include media-laptop {
+		padding-bottom: 4.75rem;
+	}
+
+	@include media-mobile {
+		padding-bottom: 2rem;
+	}
+}
+
+.donate__wrapper {
+	@include media-laptop-max {
+		width: 94rem;
+	}
+
+	@include media-laptop {
+		width: 60rem;
+	}
+
+	@include media-mobile {
+		width: 30rem;
+	}
+}
+
+.donate__header {
+	@include font($font-family-regular, $font-size-xl, 130%, normal, 400);
+	padding-top: 4rem;
+	text-transform: uppercase;
+	color: $color-header-light;
+
+	@include media-laptop-max {
+		padding-right: 10rem;
+	}
+
+	@include media-laptop {
+		@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+		padding: 3rem 0 0 0;
+	}
+}
+
+.donate__description {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 400);
+	margin: 1rem 0 4.2rem 0;
+	color: $color-header-light;
+
+	@include media-laptop-max {
+		margin: 3rem 1rem 4.5rem 0;
+	}
+
+	@include media-laptop {
+		margin: 2rem 0 2.5rem 0;
+	}
+
+	@include media-mobile {
+		margin: 2rem 0.5rem 2.5rem 0;
+	}
+}
+
+.donate__subheader {
+	@include font($font-family-regular, $font-size-xl, 130%, normal, 400);
+	margin-bottom: 6rem;
+	color: $color-header-primary;
+
+	@include media-laptop-max {
+		margin-bottom: 4rem;
+	}
+
+	@include media-laptop {
+		margin-bottom: 3.25rem;
+	}
+
+	@include media-mobile {
+		@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+		margin-bottom: 3rem;
+	}
+}

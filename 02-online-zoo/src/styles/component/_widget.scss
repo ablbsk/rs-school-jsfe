@@ -1,0 +1,106 @@
+.widget {
+	max-width: 115.6rem;
+	padding: 4rem 9.2rem 6.2rem 9.2rem;
+	background: rgba(253, 253, 255, 0.52);
+	border-radius: $border-radius-medium;
+
+	@include media-laptop-max {
+		padding: 2rem 4.4rem 4.5rem 4.7rem;
+	}
+
+	@include media-laptop {
+		padding: 2.5rem 0 3rem 0;
+	}
+
+	@include media-mobile {
+		padding: 1.75rem 0 2rem 0;
+	}
+}
+
+.widget__header {
+	@include font($font-family-regular, $font-size-2xl, 120%, normal, 400);
+	text-align: center;
+	position: relative;
+	right: 0.7rem;
+	top: 0.3rem;
+	color: $color-header-primary;
+
+	@include media-laptop {
+		right: 0;
+	}
+
+	@include media-mobile {
+		@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+	}
+}
+
+.widget__description {
+	@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+	margin: 2.4rem 0 6rem 0;
+	color: $color-text;
+
+	@include media-laptop-max {
+		margin: 1rem 0 6.25rem 0;
+	}
+
+	@include media-laptop {
+		text-align: center;
+		margin: 2.5rem 0 5rem 0;
+	}
+
+	@include media-mobile {
+		@include font($font-family-regular, $font-size-s, 140%, normal, 400);
+		margin: 1.25rem 0 1rem 0;
+	}
+}
+
+.widget__scheme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	right: 0.7rem;
+
+	@include media-mobile {
+		right: 0;
+	}
+}
+
+.widget__diet-number {
+	@include font($font-family-regular, 7.2rem, 80%, normal, 500);
+	margin-bottom: 1rem;
+	text-align: center;
+	color: $color-header-dark;
+
+	@include media-mobile {
+		@include font($font-family-regular, 4rem, 80%, normal, 500);
+		margin: 4.75rem 0 1.25rem 0;
+	}
+}
+
+.widget__diet-description {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 400);
+	color: $color-text;
+	position: relative;
+	bottom: 0.6rem;
+
+	@include media-mobile {
+		@include font($font-family-regular, 0.9rem, 140%, normal, 400);
+	}
+}
+
+.widget__symbol {
+	margin: 2rem 6.4rem 0 1.1rem;
+
+	@include media-mobile {
+		@include square-size(0.75rem);
+		margin: 1.5rem 3.5rem 0 0.75rem;
+	}
+}
+
+.widget__animal {
+	@include media-mobile {
+		width: 16rem;
+		height: 13.8rem;
+	}
+}

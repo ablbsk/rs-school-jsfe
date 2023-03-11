@@ -1,0 +1,24 @@
+.button {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 500);
+	width: 29.8rem;
+	padding: 1.6rem 0;
+	background: $color-primary;
+	color: $color-text-light;
+	text-transform: uppercase;
+	border: none;
+	border-radius: $border-radius-small;
+	cursor: pointer;
+	transition: $duration;
+
+	&:hover {
+		background: $color-hover;
+	}
+
+	&:active {
+		background: $color-active;
+	}
+}
+
+.button--big-radius {
+	border-radius: $border-radius-big;
+}

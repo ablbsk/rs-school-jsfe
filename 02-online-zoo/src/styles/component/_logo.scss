@@ -1,0 +1,44 @@
+.logo {
+	width: 8.2rem;
+	height: 5.2rem;
+	display: inline-block;
+	border: 0.1rem solid #ffffff;
+	border-radius: $border-radius-small;
+
+	&--without-border {
+		@include media-table {
+			width: 4.7rem;
+			height: 2.9rem;
+			padding: 0;
+			border: none;
+		}
+	}
+
+	&--linear {
+		@include media-mobile {
+			width: 12.8rem;
+			height: 2.5rem;
+			border: none;
+		}
+	}
+
+	&--accent {
+		width: 6.5rem;
+		height: 4.2rem;
+		border-color: $color-header-primary;
+	}
+}
+
+.logo__icon {
+	@include icon-background(100%, 100%, "../assets/icons/logo.svg");
+
+	&--linear {
+		@include media-mobile {
+			@include icon-background(100%, 100%, "../assets/icons/logo-linear.svg");
+		}
+	}
+
+	&--accent {
+		filter: brightness(0) saturate(100%) invert(78%) sepia(42%) saturate(6260%) hue-rotate(350deg) brightness(101%) contrast(99%);
+	}
+}

@@ -1,0 +1,35 @@
+.radio {
+	display: flex;
+	align-items: center;
+
+	& + & {
+		margin-left: 7rem;
+		position: relative;
+		right: 2rem;
+	}
+}
+
+.radio__input {
+	appearance: none;
+	background-color: transparent;
+	margin: 0;
+	font: inherit;
+	color: $color-header-primary;
+	width: 1.6em;
+	height: 1.6em;
+	border: 0.15rem solid $color-header-primary;
+	border-radius: 50%;
+	cursor: pointer;
+
+	&:checked {
+		background-color: $color-active;
+		border-color: $color-active;
+	}
+}
+
+.radio__label {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 400);
+	margin-left: 0.5rem;
+	color: $color-text;
+	cursor: pointer;
+}

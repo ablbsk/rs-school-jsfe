@@ -1,0 +1,26 @@
+.donate-promo {
+	height: 38.6rem;
+	background-image: url("../assets/images/promo-back.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	background-size: 100%;
+
+	@include media-laptop-max {
+		height: 39rem;
+		background-position: -17rem center;
+		background-size: 160%;
+	}
+
+	@include media-laptop {
+		height: 33.5rem;
+		background-position: -26rem center;
+		background-size: 210%;
+	}
+
+	@include media-mobile {
+		height: 18.7rem;
+		background-position: -14rem center;
+		background-size: 235%;
+	}
+}

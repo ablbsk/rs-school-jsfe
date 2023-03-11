@@ -1,0 +1,16 @@
+.design-by {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 500);
+	text-decoration: none;
+	color: $color-text-light;
+	transition: color $duration ease-out;
+
+	&:active {
+		color: $color-hover;
+	}
+
+	&--hamburger {
+		display: inline-block;
+		color: $color-header;
+		margin-top: 1.5rem;
+	}
+}

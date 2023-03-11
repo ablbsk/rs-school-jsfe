@@ -1,0 +1,321 @@
+.pets {
+	position: relative;
+	padding-bottom: 10rem;
+
+	@include media-desktop-max {
+		padding-bottom: 14rem;
+	}
+
+	@include media-table {
+		padding-bottom: 10rem;
+	}
+
+	@include media-mobile {
+		padding-bottom: 6rem;
+	}
+}
+
+.pets__wrapper {
+	width: 116rem;
+	overflow: hidden;
+
+	@include media-laptop-max {
+		width: 94rem;
+	}
+
+	@include media-laptop {
+		width: 63rem;
+	}
+
+	@include media-table {
+		width: 60rem;
+	}
+
+	@include media-mobile {
+		width: 30rem;
+	}
+}
+
+.pets__container {
+	display: flex;
+	position: relative;
+	right: 0;
+	transition: right $duration*2;
+}
+
+.pets__slider {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex: 0 0 100%;
+	gap: 2rem 2.5rem;
+
+	@include media-laptop-max {
+		gap: 9rem 2.5rem;
+	}
+
+	@include media-mobile {
+		justify-content: flex-start;
+		gap: 2rem;
+	}
+}
+
+.pets__arrow-container {
+	width: 132rem;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 64rem;
+	left: 50%;
+	transform: translateX(-50%);
+
+	@include media-desktop-max {
+		width: 110rem;
+		bottom: 61rem;
+	}
+
+	@include media-laptop-max {
+		width: 29.5rem;
+		bottom: 64.5rem;
+	}
+
+	@include media-laptop {
+		width: 15.5rem;
+		bottom: 64.5rem;
+	}
+
+	@include media-table {
+		bottom: 56.5rem;
+	}
+
+	@include media-mobile {
+		display: none;
+	}
+}
+
+.pets__arrow {
+	@include square-size(6.2rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: $color-primary;
+	border-radius: 50%;
+	transition: $duration;
+	cursor: pointer;
+
+	&--rotate {
+		transform: rotate(180deg);
+	}
+
+	&:hover {
+		background: $color-hover;
+	}
+
+	&:active {
+		background: $color-active;
+	}
+
+	@include media-mobile {
+		display: none;
+	}
+}
+
+.pets__button {
+	display: block;
+	margin: 7.5rem auto 0 auto;
+
+	@include media-desktop-max {
+		margin-top: 7.75rem;
+	}
+
+	@include media-table {
+		margin-top: 5.75rem;
+	}
+
+	@include media-mobile {
+		margin-top: 2.15rem;
+	}
+}
+
+// ========================== PET =========================
+
+.pet {
+	max-width: 36.6rem;
+	margin: 0;
+	position: relative;
+	border: 1px solid transparent;
+	background: $color-primary;
+	border-radius: $border-radius-small;
+	overflow: hidden;
+	cursor: pointer;
+
+	&:hover {
+		.pet__image {
+			transform: scale(1.35);
+		}
+
+		.pet__content--show {
+			visibility: visible;
+			bottom: 0;
+			background-color: #000000;
+			opacity: 0.75;
+		}
+	}
+
+	&:nth-child(-n+2) {
+		@include media-laptop {
+			display: none;
+		}
+	}
+
+	@include media-desktop-max {
+		width: 29.4rem;
+	}
+
+	@include media-table {
+		width: 28.4rem;
+	}
+
+	@include media-mobile {
+		height: 33rem;
+	}
+}
+
+.pet__image {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: $border-radius-small $border-radius-small 0 0;
+	transition: $duration;
+}
+
+.pet__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.8rem 1.2rem 1.4rem 1.6rem;
+	background: $color-header-light;
+	border-radius: 0 0 $border-radius-small $border-radius-small;
+	transition: $duration;
+
+	@include media-table {
+		padding: 0.5rem 0.5rem 1rem 1rem;
+	}
+
+	.pet__name {
+		@include font($font-family-regular, $font-size-s, 140%, normal, 500);
+		margin: 0;
+		color: $color-header-dark;
+		text-transform: uppercase;
+
+		@include media-table {
+			@include font($font-family-regular, 1.25rem, 140%, normal, 500);
+		}
+	}
+
+	.pet__geo {
+		@include font($font-family-regular, $font-size-xs, 120%, normal, 300);
+		margin: 0;
+		color: $color-header-dark;
+
+		@include media-table {
+			@include font($font-family-regular, 1.17rem, 140%, normal, 500);
+		}
+	}
+}
+
+.pet__content--show {
+	display: flex;
+	visibility: hidden;
+	position: absolute;
+	bottom: -100%;
+	height: 100%;
+	width: 100%;
+	transition: $duration*2;
+
+	.pet__text--show {
+		padding: 1.6rem 1.4rem;
+	}
+
+	.pet__name {
+		@include font($font-family-regular, $font-size-s, 140%, normal, 500);
+		margin: 0;
+		color: $color-text-light;
+		text-transform: uppercase;
+	}
+
+	.pet__geo {
+		@include font($font-family-regular, $font-size-xs, 120%, normal, 300);
+		margin: 0;
+		color: $color-text-light;
+	}
+}
+
+.pet__icon {
+	@include media-table {
+		&--predator {
+			width: 3.75rem;
+			height: 2.95rem;
+		}
+
+		&--herbivore {
+			width: 2.55rem;
+			height: 2.9rem;
+		}
+	}
+}
+
+// ======================== IMAGE =========================
+
+.pets__background {
+	position: absolute;
+	bottom: 0;
+}
+
+.pets__background--left {
+	left: 0;
+
+	@include media-desktop-max {
+		display: none;
+	}
+}
+
+.pets__background--left-small {
+	display: none;
+	left: 0;
+
+	@include media-desktop-max {
+		display: block;
+	}
+
+	@include media-table {
+		left: -6rem;
+	}
+
+	@include media-mobile {
+		width: 7rem;
+		height: 7rem;
+		left: -1rem;
+	}
+}
+
+.pets__background--right {
+	right: 0;
+
+	@include media-desktop-max {
+		width: 24rem;
+		height: 18rem;
+	}
+
+	@include media-table {
+		width: 17.5rem;
+		height: 13rem;
+	}
+
+	@include media-mobile {
+		width: 8.5rem;
+		height: 7rem;
+		bottom: -0.25rem;
+		right: -1.5rem;
+	}
+}

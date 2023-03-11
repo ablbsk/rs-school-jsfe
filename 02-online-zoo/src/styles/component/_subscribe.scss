@@ -1,0 +1,60 @@
+.subscribe {
+  @include media-laptop {
+    display: none;
+  }
+}
+
+.subscribe__header {
+  @include font($font-family-regular, $font-size-m, 120%, normal, 400);
+  margin-bottom: 1.4rem;
+  color: $color-text-light;
+}
+
+.subscribe__form {
+  display: flex;
+
+  &:invalid {
+    .subscribe__submit,
+    .subscribe__input {
+      border: 1px solid $color-mistake;
+      color: $color-mistake;
+    }
+  }
+
+  &:valid {
+    .subscribe__input {
+      border: 1px solid $color-active;
+      color: #bdbdbd;
+    }
+
+    .subscribe__submit:active {
+      color: $color-active;
+      border: 1px solid $color-active;
+    }
+  }
+}
+
+.subscribe__input {
+  @include font($font-family-regular, $font-size-s, 140%, normal, 400);
+  width: 20.8rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  background-color: #000000;
+  color: #bdbdbd;
+  border: 1px solid $color-hover;
+  border-radius: $border-radius-small;
+  transition: $duration;
+  outline: none;
+}
+
+.subscribe__submit {
+  @include font($font-family-regular, $font-size-s, 140%, normal, 400);
+  width: 12.9rem;
+  padding: 1rem 0;
+  background: #f1f3f2;
+  color: #000000;
+  border: 1px solid #333b41;
+  border-radius: $border-radius-small;
+  transition: $duration;
+  cursor: pointer;
+}
