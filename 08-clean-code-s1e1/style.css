@@ -1,0 +1,191 @@
+/* --------------- GENERAL STYLES --------------- */
+:root {
+    /* Size */
+    --content-width: 500px;
+
+    /* Padding & Margin */
+    --heading-padding: 30px 0 10px 0;
+
+    /* Color */
+    --main-text-color: #333333;
+    --button-text-color: #888888;
+
+    /* Font */
+    --main-font-size: 15px;
+    --main-font-family: lato, sans-serif;
+    --header-font-weight: 700;
+
+    /* Border */
+    --heading-border-bottom: 2px solid var(--main-text-color);
+}
+
+.wrapper {
+    background-color: #f8f8f8;
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+}
+
+.main {
+    width: var(--content-width);
+    margin: 0 auto;
+    display: block;
+}
+
+.section-header {
+    color: var(--main-text-color);
+    font-weight: var(--header-font-weight);
+    font-size: var(--main-font-size);
+    border-bottom: var(--heading-border-bottom);
+    padding: var(--heading-padding);
+    margin: 0;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+/* ------------------ BUTTON ------------------ */
+.button {
+    width: 60px;
+    border: 0;
+    background: none;
+    color: var(--button-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    cursor: pointer;
+    outline: none;
+}
+
+.button--delete__icon {
+    height: 2em;
+    transform: rotateZ(45deg);
+    transition: transform 200ms ease-in;
+}
+
+.button:hover {
+    color: #3a3a3a;
+}
+
+.button--delete__icon:hover {
+    transform: rotateZ(0);
+}
+
+/* ------------------- TASK ------------------- */
+.task {
+    width: 56%;
+    height: 21px;
+    margin: 0;
+    padding: 0 9px;
+    display: inline-block;
+    flex-grow: 1;
+    line-height: 18px;
+    background: #ffffff;
+    color: var(--button-text-color);
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: var(--main-font-family);
+    outline: none;
+}
+
+.task:focus {
+    color: var(--main-text-color);
+}
+
+/* ------------------- HEADER ------------------- */
+.header {
+    width: var(--content-width);
+    margin: 0 auto;
+    display: block;
+    text-align: right;
+}
+
+.header__image {
+    width: 100%;
+}
+
+.header__more-link {
+    font-family: fantasy, cursive;
+}
+
+/* ------------------ NEW TASK ------------------ */
+
+.new-task__label {
+    margin: 0 0 20px 0;
+    padding: var(--heading-padding);
+    display: block;
+    font-weight: var(--header-font-weight);
+    font-size: var(--main-font-size);
+    border-bottom: var(--heading-border-bottom);
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+.new-task__input-container {
+    display: flex;
+}
+
+.new-task__input {
+    width: 318px;
+}
+
+/* -------------------- LIST -------------------- */
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.list__item {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    list-style: none;
+    overflow: hidden;
+}
+
+.list__item-checkbox {
+    margin: 0 10px;
+}
+
+.list__item-label {
+    width: 226px;
+    padding-left: 10px;
+    display: inline-block;
+    flex-grow: 1;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.list__item-input {
+    width: 226px;
+}
+
+/* Completed */
+#completed-tasks-list label {
+    text-decoration: line-through;
+    color: var(--button-text-color);
+}
+
+/* Edit Task */
+.list__item-input {
+    display: none;
+}
+
+.list__item--edit > .list__item-input {
+    display: inline-block;
+    width: 224px;
+}
+
+.list__item--edit > .list__item-label {
+    display: none;
+}
+
+/* -------------------- @MEDIA -------------------- */
+@media (max-width: 768px) {
+
+    .header {
+        text-align: center;
+    }
+
+}
