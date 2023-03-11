@@ -1,0 +1,60 @@
+@mixin font($family, $size, $line-height, $style: normal, $weight: 400) {
+  font-family: $family;
+  font-size: $size;
+  line-height: $line-height;
+  font-style: $style;
+  font-weight: $weight;
+}
+
+@mixin icon-background($height, $width, $url) {
+  display: inline-block;
+  height: $height;
+  width: $width;
+  background-image: url($url);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@mixin square-size($height, $width: $height) {
+  height: $height;
+  width: $width;
+}
+
+// ========================= MEDIA ========================
+
+@mixin media-desktop-max {
+  @media (max-width: $breakpoint-desktop-max) {
+    @content;
+  }
+}
+
+@mixin media-desktop {
+  @media (max-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin media-laptop-max {
+  @media (max-width: $breakpoint-laptop-max) {
+    @content;
+  }
+}
+
+@mixin media-laptop {
+  @media (max-width: $breakpoint-laptop) {
+    @content;
+  }
+}
+
+@mixin media-table {
+  @media (max-width: $breakpoint-table) {
+    @content;
+  }
+}
+
+@mixin media-mobile {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}

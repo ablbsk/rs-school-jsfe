@@ -1,0 +1,255 @@
+.feed {
+	background: $color-background-primary;
+	opacity: 0.9;
+	padding: 7rem 0 10rem 0;
+
+	@include media-desktop {
+		padding: 3rem 0 5rem 0;
+	}
+
+	@include media-laptop {
+		padding: 2rem 0;
+	}
+}
+
+.feed__wrapper {
+	padding: 4rem 0 6rem 0;
+	background: rgba(253, 253, 255, 0.52);
+	border-radius: $border-radius-medium;
+
+	@include media-desktop {
+		padding: 3rem 0 5rem 0;
+		width: 94rem;
+	}
+
+	@include media-laptop {
+		padding: 1rem 2rem 6rem 2rem;
+		width: 60rem;
+	}
+
+	@include media-mobile {
+		padding: 2rem 0 4rem 0;
+		width: 30rem;
+	}
+}
+
+.feed__header {
+	@include font($font-family-regular, $font-size-2xl, 120%, normal, 400);
+	margin-bottom: 3rem;
+	text-align: center;
+	color: $color-header-primary;
+
+	@include media-desktop {
+		margin-bottom: 0;
+	}
+
+	@include media-laptop {
+		@include font($font-family-regular, 4.2rem, 120%, normal, 400);
+	}
+
+	@include media-mobile {
+		@include font($font-family-regular, 2.4rem, 120%, normal, 400);
+	}
+}
+
+.feed__title {
+	@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+	margin: 3.3rem 0 4rem 10rem;
+	color: $color-text;
+
+	@include media-desktop {
+		margin: 2rem 0 2rem 5rem;
+	}
+
+	@include media-laptop {
+		@include font($font-family-regular, 2.2rem, 120%, normal, 400);
+		margin: 1.75rem 0 2rem 0;
+	}
+
+	@include media-mobile {
+		@include font($font-family-regular, 1.8rem, 120%, normal, 400);
+		text-align: center;
+		margin: 1rem 0 0 0;
+	}
+}
+
+.feed__text {
+	@include font($font-family-regular, $font-size-s, 130%, normal, 400);
+	margin: 0 0 1rem 10rem;
+	color: $color-text;
+
+	&--medium {
+		@include font($font-family-regular, $font-size-s, 130%, normal, 500);
+		margin: 0 0 1rem 10rem;
+	}
+
+	@include media-desktop {
+		margin: 0 8rem 1rem 5rem;
+	}
+
+	@include media-laptop {
+		margin: 0 0 1rem 0;
+	}
+
+	@include media-mobile {
+		display: none;
+	}
+}
+
+.feed__br {
+	@include media-desktop {
+		display: none;
+	}
+}
+
+.feed__link {
+	text-decoration: underline $color-hover;
+	color: $color-text;
+	transition: $duration;
+	cursor: pointer;
+
+	&:hover {
+		color: $color-hover;
+	}
+
+	&:active {
+		color: $color-active;
+		text-decoration: underline $color-active;
+	}
+}
+
+.feed__button {
+	display: block;
+	margin: 0 auto;
+
+	@include font($font-family-regular, $font-size-s, 140%, normal, 500);
+	width: 29.8rem;
+	padding: 1.6rem 0;
+	background: $color-primary;
+	color: $color-text-light;
+	border: none;
+	border-radius: $border-radius-big;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	transition: $duration;
+
+	&:hover {
+		background: $color-hover;
+	}
+
+	&:active {
+		background: $color-active;
+	}
+}
+
+// ======================== SCHEME ========================
+
+.feed__scheme-header {
+	@include font($font-family-regular, $font-size-xl, 130%, normal, 400);
+	margin: 6rem 0 4rem 0;
+	text-align: center;
+	color: $color-text;
+
+	@include media-desktop {
+		margin: 4rem 0;
+	}
+
+	@include media-laptop {
+		margin: 3rem 0 0 0;
+	}
+
+	@include media-mobile {
+		@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+		margin: 2.15rem 0 0 0;
+	}
+}
+
+.feed__scheme {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 4rem 19.8rem 6rem 19.8rem;
+
+	@include media-desktop {
+		margin: 4rem 8.8rem 7rem 8.8rem;
+	}
+
+	@include media-laptop {
+		position: relative;
+		margin: 2rem 1rem 4rem 0;
+	}
+
+	@include media-mobile {
+		flex-direction: column;
+		margin: 2rem 0 1.75rem 0;
+	}
+}
+
+.feed__item {
+	height: 24.4rem;
+	width: 16.8rem;
+
+	&--last {
+		@include media-mobile {
+			margin-top: 0.5rem;
+		}
+	}
+}
+
+.feed__item-image {
+	@include square-size(16.8rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	border: 1px solid $color-hover;
+	border-radius: $border-radius-small;
+}
+
+.feed__item-title {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 400);
+	margin-top: 3rem;
+	color: $color-text;
+
+	@include media-mobile {
+		margin-top: 0.5rem;
+	}
+}
+
+.feed__next {
+	position: relative;
+	bottom: 4.5rem;
+
+	@include media-laptop {
+		display: none;
+	}
+}
+
+.feed__next-arc {
+	position: absolute;
+	display: none;
+
+	@include media-laptop {
+		display: inline;
+		top: -1.5rem;
+		left: 13.75rem;
+
+		&--second {
+			left: 34.5rem;
+		}
+	}
+
+	@include media-mobile {
+		display: inline;
+		rotate: 83deg;
+
+		left: 20.5rem;
+		top: 19rem;
+
+		&--second {
+			top: 44rem;
+		}
+	}
+}

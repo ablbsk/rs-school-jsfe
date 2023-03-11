@@ -1,0 +1,55 @@
+.navigation {
+	display: flex;
+	list-style: none;
+
+	&--hamburger {
+		display: block;
+	}
+}
+
+.navigation__item {
+	& + & {
+		margin-left: 5.8rem;
+
+		@include media-laptop-max {
+			margin-left: 4.8rem;
+		}
+
+		@include media-table {
+			margin-left: 3.8rem;
+		}
+
+		@include media-mobile {
+			margin-left: 3rem;
+		}
+	}
+
+	&--hamburger {
+		& + & {
+			@include media-table {
+				margin: 1.5rem 0 0 0;
+			}
+
+			@include media-mobile {
+				margin: 1.5rem 0 0 0;
+			}
+		}
+	}
+}
+
+.navigation__link {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 500);
+	text-decoration: none;
+	color: $color-text-light;
+	transition: color $duration ease-out;
+	white-space: nowrap;
+
+	&--active,
+	&:active {
+		color: $color-hover;
+	}
+
+	&--hamburger {
+		color: $color-header;
+	}
+}

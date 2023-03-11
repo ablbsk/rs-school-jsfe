@@ -1,0 +1,118 @@
+.backstage {
+	margin: 14rem 0 17rem 0;
+	position: relative;
+
+	@include media-desktop {
+		margin: 4.75rem 3rem 15rem 3rem;
+	}
+
+	@include media-laptop {
+		margin: 5.75rem 0 7rem 2rem;
+	}
+
+	@include media-mobile {
+		margin: 10.5rem 0 3.5rem 0;
+	}
+}
+
+.backstage__wrapper {
+	display: flex;
+	justify-content: space-between;
+
+	@include media-desktop {
+		justify-content: center;
+	}
+
+	@include media-table {
+		justify-content: flex-start;
+	}
+
+	@include media-mobile {
+		justify-content: center;
+	}
+}
+
+.backstage__image {
+	height: 40.3rem;
+	width: 60.8rem;
+
+	@include media-desktop {
+		margin: 1rem 3rem 0 0;
+		height: 40.8rem;
+		width: 45.5rem;
+		object-fit: cover;
+	}
+
+	@include media-laptop {
+		display: none;
+	}
+}
+
+.backstage__content {
+	width: 46.5rem;
+
+	@include media-desktop {
+		width: 45.5rem;
+	}
+
+	@include media-mobile {
+		width: 30rem;
+	}
+}
+
+.backstage__header {
+	@include font($font-family-regular, $font-size-2xl, 120%, normal, 400);
+	margin: 0 0 2rem 0;
+	color: $color-text;
+
+	@include media-mobile {
+		@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+		margin-bottom: 1rem;
+	}
+}
+
+.backstage__subtitle {
+	@include font($font-family-regular, $font-size-m, 120%, normal, 400);
+	margin: 5.4rem 0 3.3rem 0;
+	color: $color-text;
+
+	@include media-laptop {
+		margin: 3rem 0 1.8rem 0;
+	}
+
+	@include media-mobile {
+		margin: 1.5rem 0 1rem 0;
+	}
+}
+
+.backstage__text {
+	@include font($font-family-regular, $font-size-s, 140%, normal, 400);
+	margin: 0;
+	color: $color-text;
+}
+
+.backstage__flower {
+	position: absolute;
+	top: -13rem;
+	right: 0;
+
+	@include media-desktop-max {
+		display: none;
+	}
+
+	@include media-laptop {
+		display: block;
+		object-fit: contain;
+		width: 23.1rem;
+		height: 47.6rem;
+		top: -6rem;
+		right: -6rem;
+	}
+
+	@include media-mobile {
+		width: 10.6rem;
+		height: 21.7rem;
+		top: -6.5rem;
+		right: -5.5rem;
+	}
+}

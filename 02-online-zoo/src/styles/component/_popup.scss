@@ -1,0 +1,13 @@
+.popup {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	text-align: right;
+	transform: translate(-50%, -50%);
+	z-index: 50;
+
+	@include media-laptop {
+		width: 32rem;
+		height: 43rem;
+	}
+}

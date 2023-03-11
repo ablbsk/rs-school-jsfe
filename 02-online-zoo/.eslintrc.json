@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "plugins": ["prettier", "import"],
+  "rules": {
+    "import/extensions": "off",
+    "no-console": "warn",
+    "no-plusplus": "off"
+  },
+  "ignorePatterns": ["*config.js"]
+}

@@ -1,0 +1,74 @@
+{
+  "pet-1": {
+    "index": 1,
+    "name": "Giant pandas",
+    "location": "Native to Southwest China",
+    "predator": false
+  },
+  "pet-2": {
+    "index": 2,
+    "name": "Eagles",
+    "location": "Native to South America",
+    "predator": true
+  },
+  "pet-3": {
+    "index": 3,
+    "name": "Gorillas",
+    "location": "Native to Congo",
+    "predator": false
+  },
+  "pet-4": {
+    "index": 4,
+    "name": "Two-toed sloth",
+    "location": "Mesoamerica, South America",
+    "predator": false
+  },
+  "pet-5": {
+    "index": 5,
+    "name": "Cheetahs",
+    "location": "Native to Africa",
+    "predator": true
+  },
+  "pet-6": {
+    "index": 6,
+    "name": "Penguins",
+    "location": "Native to Antarctica",
+    "predator": true
+  },
+  "pet-7": {
+    "index": 7,
+    "name": "Rabbit",
+    "location": "Native to Belarus",
+    "predator": false
+  },
+  "pet-8": {
+    "index": 8,
+    "name": "Mammals",
+    "location": "Native to America",
+    "predator": true
+  },
+  "pet-9": {
+    "index": 9,
+    "name": "Red panda",
+    "location": "Native to Asia",
+    "predator": false
+  },
+  "pet-10": {
+    "index": 10,
+    "name": "Eagle",
+    "location": "Native to Philippine",
+    "predator": true
+  },
+  "pet-11": {
+    "index": 11,
+    "name": "Flying fox",
+    "location": "Native to Asia",
+    "predator": true
+  },
+  "pet-12": {
+    "index": 12,
+    "name": "Koala",
+    "location": "Native to Australia",
+    "predator": false
+  }
+}

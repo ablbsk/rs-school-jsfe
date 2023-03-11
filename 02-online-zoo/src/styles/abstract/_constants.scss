@@ -1,0 +1,73 @@
+// ======================== VALUE =========================
+
+$base: 4rem;
+$duration: 0.2s;
+
+// ======================== COLOR =========================
+
+$color-primary: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+
+$color-header: #333b41;
+$color-header-light: #ffffff;
+$color-header-dark: #000000;
+$color-header-primary: #fe9013;
+$color-header-accent: #ffee2e;
+
+$color-text: #333b41;
+$color-text-gray: #767474;
+$color-text-light: #ffffff;
+
+$color-background: #ffffff;
+$color-background-primary: linear-gradient(
+    315.75deg,
+    rgba(254, 210, 144, 0.7) 30.06%,
+    #febdab 100.95%,
+    rgba(254, 210, 144, 0.7) 106.36%
+  ),
+  linear-gradient(
+    315.75deg,
+    rgba(254, 189, 171, 0.74) 30.06%,
+    rgba(243, 169, 248, 0.66) 50.74%,
+    #e0d8f0 80.49%,
+    #eaf7fe 127.9%,
+    #eaf7fe 149.54%
+  ),
+  linear-gradient(
+    315.75deg,
+    rgba(254, 189, 171, 0.74) 30.06%,
+    rgba(243, 169, 248, 0.66) 50.74%,
+    #e0d8f0 80.49%,
+    #eaf7fe 127.9%,
+    #eaf7fe 149.54%
+  );
+
+$color-hover: #e47209;
+$color-active: #4b9200;
+$color-mistake: #d31414;
+
+// ========================= FONT =========================
+
+$font-family-regular: "Roboto", Verdana, sans-serif;
+
+$font-size-3xl: 10.6rem;
+$font-size-2xl: 4.8rem;
+$font-size-xl: 3.6rem;
+$font-size-l: 2.6rem;
+$font-size-m: 2.4rem;
+$font-size-s: 1.6rem;
+$font-size-xs: 1.5rem;
+
+// ======================== BORDER ========================
+
+$border-radius-big: 2.5rem;
+$border-radius-medium: 2rem;
+$border-radius-small: 0.5rem;
+
+// ========================= MEDIA ========================
+
+$breakpoint-desktop-max: 1599px;
+$breakpoint-desktop: 1439px;
+$breakpoint-laptop-max: 1219px;
+$breakpoint-laptop: 999px;
+$breakpoint-table: 767px;
+$breakpoint-mobile: 639px;
