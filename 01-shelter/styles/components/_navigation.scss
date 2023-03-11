@@ -1,0 +1,57 @@
+.navigation {
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+  @include media-mobile {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  & :not(:first-child) {
+    padding-left: 3.5rem;
+
+    @include media-mobile {
+      padding-left: 0;
+    }
+  }
+}
+
+.navigation__item {
+  @extend %font-base;
+  @include font($size: 1.5rem, $height: 160%, $spacing: 0);
+
+  .navigation__link {
+    @extend %transition;
+    text-decoration: none;
+  }
+
+  @include media-mobile {
+    @include font($size: 3.2rem, $height: 160%, $spacing: 0);
+    text-align: center;
+  }
+}
+
+// Main page
+.navigation--light > .navigation__item > .navigation__link {
+  color: $color-dark-s;
+
+  &:hover {
+    color: $color-light-s;
+  }
+}
+
+// Our pets page
+.navigation--dark > .navigation__item > .navigation__link {
+  color: $color-dark-l;
+
+  &:hover {
+    color: $color-dark-3xl;
+  }
+}
+
+.navigation__link--active {
+  padding: 0.3rem 0;
+  border-bottom: 0.2rem solid $color-primary;
+}

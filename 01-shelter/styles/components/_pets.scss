@@ -1,0 +1,46 @@
+.pets {
+  padding: 80px 40px 100px 40px;
+  background-color: $color-light-l;
+
+  text-align: center;
+
+  @include media-tablet {
+    padding: 80px 30px 74px 30px;
+  }
+
+  @include media-mobile {
+    padding: 45px 10px;
+  }
+}
+
+// Our page
+.pets__list {
+  margin: 60px auto 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-tablet {
+    margin: 30px auto 5px auto;
+    width: 580px;
+
+    .card:nth-last-child(-n+2) {
+      display: none;
+    }
+  }
+
+  @include media-mobile {
+    display: block;
+    margin: 40px auto 0 auto;
+    width: 300px;
+
+    .card:nth-last-child(-n+5) {
+      display: none;
+    }
+  }
+
+  .card {
+    margin-bottom: 35px;
+  }
+}

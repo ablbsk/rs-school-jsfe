@@ -1,0 +1,10 @@
+.pets__pagination {
+  margin: 0 auto;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+
+  @include media-mobile {
+    width: 300px;
+  }
+}

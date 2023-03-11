@@ -1,0 +1,58 @@
+.link-button {
+  @extend %font-primary;
+  @extend %transition;
+  @include font($size: 1.7rem, $height: 130%, $spacing: 0.06em);
+
+  display: inline-block;
+  padding: 15px 45px;
+  border-radius: 100px;
+  color: $color-dark-3xl;
+  background: $color-primary;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    background: $color-primary-light;
+  }
+}
+
+.square-button {
+  @extend %transition;
+  @extend %font-primary;
+  @include font($size: 2.0rem, $height: 115%, $spacing: 0.06em);
+
+  width: 52px;
+  height: 52px;
+  color: $color-dark-3xl;
+  background: $color-light-s;
+  border: 2px solid $color-primary;
+  border-radius: 100px;
+
+  &:hover {
+    cursor: pointer;
+    border-color: $color-primary-light;
+    background: $color-primary-light;
+  }
+}
+
+.square-button--active {
+  background: $color-primary;
+
+  &:hover {
+    cursor: default;
+    background: $color-primary;
+    border-color: $color-primary;
+  }
+}
+
+.square-button--disabled {
+  color: $color-dark-s;
+  border: 2px solid $color-dark-s;
+
+  &:hover {
+    cursor: default;
+    color: $color-dark-s;
+    border: 2px solid $color-dark-s;
+    background: none;
+  }
+}
