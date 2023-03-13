@@ -1,0 +1,52 @@
+.footer {
+	padding: 10px 0;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	background-color: #69db7e;
+}
+
+.footer-list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.footer-list__item {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.icon--github {
+	@include icon-background("../assets/icons/github.svg", 2rem, 3.5rem);
+}
+
+.icon--rsschool {
+	@include icon-background("../assets/icons/rsschool.svg", 3rem, 6rem);
+}
+
+.copyright {
+	margin: 0;
+	padding: 10px 0;
+	color: $color-text-light;
+	font-size: 14px;
+	text-align: center;
+}
+
+.copyright__link {
+	color: $color-text-light;
+
+	&:hover {
+		color: $color-background;
+	}
+
+	&:before {
+		content: '©';
+	}
+}
