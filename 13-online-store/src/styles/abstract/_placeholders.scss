@@ -1,0 +1,65 @@
+%layout {
+  margin: $indent*0.5 0;
+  padding: $indent $indent*0.5;
+  background-color: $color-background-element;
+  border-radius: $border-radius-layout;
+  transition: $delay*2;
+  box-shadow: $box-shadow-layout;
+  cursor: default;
+}
+
+%layout-header {
+  @include font($font-family-base, map-get($font-size, xl), 125%, bold);
+  margin: 0;
+  text-align: center;
+  color: $color-font-regular;
+  transition: $delay*2;
+
+  @include media-md {
+    font-size: map-get($font-size, l);
+    margin-bottom: $indent*0.5;
+  }
+
+  @include media-2sm {
+    font-size: map-get($font-size, m);
+  }
+}
+
+%block-width {
+  width: $content-max-width;
+  padding: $indent*0.5;
+  transition: $delay*2;
+
+  @include media-xl {
+    width: 100%;
+  }
+}
+
+%subheader {
+  @include font($font-family-base, map-get($font-size, xs), 100%, normal);
+  margin: 0;
+  padding-bottom: $indent*0.25;
+  color: $color-font-title;
+  cursor: default;
+}
+
+%border-element {
+  border: 1px solid $color-border-input;
+  border-radius: $border-radius-element;
+  outline: none;
+}
+
+%container-gap {
+
+}
+
+// buttons, selects, options (for select), search
+%media-control-element {
+  @include font($font-family-base, map-get($font-size, m));
+  height: 5rem;
+
+  @include media-md {
+    @include font($font-family-base, map-get($font-size, s));
+    height: 4rem;
+  }
+}

@@ -1,0 +1,22 @@
+.rating {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  cursor: default;
+
+  &--good {
+    filter: $filter-rating-good;
+  }
+
+  &--medium {
+    filter: $filter-rating-medium;
+  }
+
+  &--bad {
+    filter: $filter-rating-bad
+  }
+}
+
+.rating__value {
+  @include font($font-family-base, map-get($font-size, l), initial, bold);
+}

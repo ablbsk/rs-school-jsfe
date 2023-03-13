@@ -1,0 +1,200 @@
+.icon {
+  display: inline-block;
+  transition: $delay*2;
+
+  &--rotate {
+    transform: rotate(-180deg);
+  }
+}
+
+/* ============== Menu ============= */
+
+$menu-icons: (
+  phone: "../assets/icons/menu/phone.svg",
+  basket: "../assets/icons/menu/basket.svg",
+);
+
+.icon {
+  @each $modificator, $url in $menu-icons {
+    &--#{$modificator} {
+      @include square-size(2.4rem);
+      background-image: url($url);
+    }
+  }
+}
+
+%basket-icon-hover {
+  .icon--basket {
+    @include square-size(2.4rem);
+    background-image: url("../assets/icons/menu/basket-hover.svg");
+  }
+}
+
+/* =========== Navigation ========== */
+
+$navigation-icons: (
+  tire: "../assets/icons/navigation/tire.svg",
+  rim: "../assets/icons/navigation/rim.svg",
+);
+
+.icon {
+  @each $modificator, $url in $navigation-icons {
+    &--#{$modificator} {
+      @include square-size(3rem);
+      background-image: url($url);
+
+      @include media-sm {
+        @include square-size(2rem);
+      }
+    }
+  }
+}
+
+%navigation-icons-hover {
+  $navigation-icons-hover: (
+    tire: "../assets/icons/navigation/tire-hover.svg",
+    rim: "../assets/icons/navigation/rim-hover.svg"
+  );
+
+  .icon {
+    @each $modificator, $url in $navigation-icons-hover {
+      &--#{$modificator} {
+        background-image: url($url);
+      }
+    }
+  }
+}
+
+/* ============ About Us =========== */
+
+$about-us-icons: (
+  market-leader: "../assets/icons/about-us/market-leader.svg",
+  handshake: "../assets/icons/about-us/handshake.svg",
+  pay-party: "../assets/icons/about-us/pay-party.svg",
+  unique-offers: "../assets/icons/about-us/unique-offers.svg",
+  service-common: "../assets/icons/about-us/service-common.svg",
+  sign-to-service: "../assets/icons/about-us/sign-to-service.svg",
+);
+
+.icon {
+  @each $modificator, $url in $about-us-icons {
+    &--#{$modificator} {
+      @include square-size(11rem);
+      background-image: url($url);
+
+      @include media-md {
+        @include square-size(9rem);
+      }
+
+      @include media-sm {
+        @include square-size(7rem);
+      }
+    }
+  }
+}
+
+/* ============ RS School ========== */
+
+.icon--github {
+  width: 4rem;
+  height: 2rem;
+  background-image: url("../assets/icons/github.svg");
+}
+
+.icon--rsschool {
+  width: 6rem;
+  height: 3rem;
+  background-image: url("../assets/icons/rs-school.svg");
+}
+
+.icon--github:hover,
+.icon--rsschool:hover {
+  filter: $filter-rsschool-icon-hover;
+}
+
+/* ============== Season =========== */
+
+$season-icons: (
+  summer: "../assets/icons/season/summer.svg",
+  winter: "../assets/icons/season/winter.svg",
+  all-year: "../assets/icons/season/all-year.svg",
+);
+
+.icon {
+  @each $modificator, $url in $season-icons {
+    &--#{$modificator} {
+      @include square-size(3rem);
+      margin: 0 $indent*0.125;
+      background-image: url($url);
+
+      @include media-lg {
+        @include square-size(2.6rem);
+      }
+
+      @include media-sm {
+        @include square-size(1.8rem);
+      }
+
+      @include media-2sm {
+        @include square-size(3.2rem);
+      }
+    }
+  }
+}
+
+/* ============== Rating =========== */
+
+.icon--star {
+  @include square-size(1.8rem);
+  margin: 0 $indent*0.25;
+  background-image: url("../assets/icons/star.svg");
+}
+
+/* ============== Offers =========== */
+
+$offers-icons: (
+  guarantee: "../assets/icons/offers/guarantee.svg",
+  pay: "../assets/icons/offers/pay.svg",
+  shipping: "../assets/icons/offers/shipping.svg",
+);
+
+.icon {
+  @each $modificator, $url in $offers-icons {
+    &--#{$modificator} {
+      @include square-size(3.6rem);
+      margin: 0 $indent*0.125;
+      background-image: url($url);
+    }
+  }
+}
+
+/* ============== Buttons =========== */
+
+.icon--arrow-down {
+  @include square-size(1.6rem);
+  margin: 0 $indent*0.125;
+  background-image: url("../assets/icons/arrow-down.svg");
+}
+
+/* ============= Link Nav ========== */
+
+.icon--link-navigation {
+  @include square-size(1.6rem);
+  background-image: url("../assets/icons/arrow-next.svg");
+}
+
+/* =========== Copy Button ========= */
+
+$copy-icons: (
+  copy: "../assets/icons/copy.svg",
+  copy-access: "../assets/icons/copy-access.svg",
+);
+
+.icon {
+  @each $modificator, $url in $copy-icons {
+    &--#{$modificator} {
+      @include square-size(2.4rem);
+      background-image: url($url);
+    }
+  }
+}

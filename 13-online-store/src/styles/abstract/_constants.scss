@@ -1,0 +1,78 @@
+/* ============= Colors ============ */
+
+$color-primary: #e2001a;
+$color-primary-hover: #ff0020;
+$color-accent: #0167cd;
+$color-accent-hover: #024b95;
+$color-error: #ff0020;
+$color-disable: grey;
+
+$color-background-page: #f5f5f5;
+$color-background-additional: #303030;
+$color-background-rsschool: #565656;
+$color-background-element: #ffffff;
+$color-background-filters: #ead2d3;
+$color-background-modal: #ffffff;
+
+$color-font-regular: #b3b3b4;
+$color-font-regular-light: #ffffff;
+$color-font-regular-dark: #3d3d3d;
+$color-font-card: #666666;
+$color-font-input: #3d3d3d;
+$color-font-title: #000000;
+$color-font-link: #ffffff;
+$color-font-message: #bdbcdb;
+$color-font-chapter: #000000;
+$color-font-button: #ffffff;
+$color-font-link-hover: $color-primary-hover;
+
+$color-border-input: #e5e5e5;
+
+/* ========= Filter (SVG) ========= */
+
+$filter-rating-good: brightness(0) saturate(100%) invert(67%) sepia(69%) saturate(496%) hue-rotate(63deg) brightness(86%) contrast(84%);
+
+$filter-rating-medium: brightness(0) saturate(100%) invert(89%) sepia(22%) saturate(6115%) hue-rotate(345deg) brightness(103%) contrast(94%);
+
+$filter-rating-bad: brightness(0) saturate(100%) invert(8%) sepia(69%) saturate(5764%) hue-rotate(345deg) brightness(143%) contrast(102%);
+
+$filter-rsschool-icon-hover: brightness(0) saturate(100%) invert(13%) sepia(0%) saturate(179%) hue-rotate(159deg) brightness(94%) contrast(83%);
+
+/* =========== Font Size =========== */
+
+$font-size: (
+  2xl: 4.8rem,
+  xl: 3.2rem,
+  l: 2.4rem,
+  m: 1.8rem,
+  s: 1.6rem,
+  xs: 1.4rem,
+  2xs: 1.2rem
+);
+
+/* ========= Width & Media ========= */
+
+$content-max-width: 1160px;
+$content-min-width: 300px;
+
+$media-breakpoints: (
+  2xl: 1400px,
+  xl: 1200px,
+  lg: 992px,
+  md: 768px,
+  sm: 576px,
+  2sm: 414px
+);
+
+/* ============ Border ============= */
+
+$border-radius-element: 0.6rem;
+$border-radius-button: 0.6rem;
+$border-radius-layout: 0.8rem;
+
+/* ================================= */
+
+$font-family-base: roboto-latin, Verdana, sans-serif;
+$delay: 0.2s;
+$indent: 4rem;
+$box-shadow-layout: 0 0 1.2rem 0 rgba(34, 60, 80, 0.2);

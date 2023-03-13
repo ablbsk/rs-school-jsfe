@@ -1,0 +1,785 @@
+{
+  "tire-1": {
+    "id": "1",
+    "brand": "Viatti",
+    "model": "Strada Asimmetrico V-130",
+    "season": "summer",
+    "count": "20",
+    "price": "200",
+    "imageUrl":  [
+      "https://autoset.by/upload/uf/692/6924c7aa23d056be498850fa57aadfc0.jpg",
+      "https://autoset.by/upload/uf/bfb/bfb295be4a19a4fe313e8b847407714d.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "4.6",
+      "commentsCount": "21"
+    },
+    "features": {
+      "protector": "7.0",
+      "weight": "9.5",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-2": {
+    "id": "2",
+    "brand": "Viatti",
+    "model": "Strada Asimmetrico V-130",
+    "season": "summer",
+    "count": "12",
+    "price": "188",
+    "imageUrl":  [
+      "https://autoset.by/upload/uf/692/6924c7aa23d056be498850fa57aadfc0.jpg",
+      "https://autoset.by/upload/uf/bfb/bfb295be4a19a4fe313e8b847407714d.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "4.4",
+      "commentsCount": "13"
+    },
+    "features": {
+      "protector": "7.0",
+      "weight": "9.5",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-3": {
+    "id": "3",
+    "brand": "Viatti",
+    "model": "Strada Asimmetrico V-130",
+    "season": "summer",
+    "count": "4",
+    "price": "180",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/692/6924c7aa23d056be498850fa57aadfc0.jpg",
+      "https://autoset.by/upload/uf/bfb/bfb295be4a19a4fe313e8b847407714d.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.6",
+      "commentsCount": "3"
+    },
+    "features": {
+      "protector": "7.0",
+      "weight": "9.5",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-4": {
+    "id": "4",
+    "brand": "Viatti",
+    "model": "Brina V-521",
+    "season": "winter",
+    "count": "10",
+    "price": "250",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/a44/a44021de987c7209348ebc8d087eb051.jpg",
+      "https://autoset.by/upload/uf/05c/05c6cbcef085727b3fb4eb5aad23722b.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "3.9",
+      "commentsCount": "4"
+    },
+    "features": {
+      "protector": "8.0",
+      "weight": "9.0",
+      "exploitation": "Лед и снег",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "T (до 190 км/ч)"
+    }
+  },
+  "tire-5": {
+    "id": "5",
+    "brand": "Viatti",
+    "model": "Brina V-521",
+    "season": "winter",
+    "count": "3",
+    "price": "230",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/a44/a44021de987c7209348ebc8d087eb051.jpg",
+      "https://autoset.by/upload/uf/05c/05c6cbcef085727b3fb4eb5aad23722b.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "4.2",
+      "commentsCount": "7"
+    },
+    "features": {
+      "protector": "8.0",
+      "weight": "9.0",
+      "exploitation": "Лед и снег",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "T (до 190 км/ч)"
+    }
+  },
+  "tire-6": {
+    "id": "6",
+    "brand": "Viatti",
+    "model": "Brina V-521",
+    "season": "winter",
+    "count": "10",
+    "price": "215",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/a44/a44021de987c7209348ebc8d087eb051.jpg",
+      "https://autoset.by/upload/uf/05c/05c6cbcef085727b3fb4eb5aad23722b.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.0",
+      "commentsCount": "1"
+    },
+    "features": {
+      "protector": "8.0",
+      "weight": "9.0",
+      "exploitation": "Лед и снег",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "T (до 190 км/ч)"
+    }
+  },
+  "tire-7": {
+    "id": "7",
+    "brand": "Nokian",
+    "model": "Nordman SX3",
+    "season": "summer",
+    "count": "10",
+    "price": "215",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/eef/eef752cf94f509af5b4d2c4e9bc124b1.jpg",
+      "https://autoset.by/upload/uf/565/56508ab031578f65045f76d6792b0977.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "3.2",
+      "commentsCount": "10"
+    },
+    "features": {
+      "protector": "7.5",
+      "weight": "Нет данных",
+      "exploitation": "100% асфальт",
+      "discProtector": "Нет данных",
+      "loadIndex": "97 (до 2920 кг)",
+      "speedIndex": "H (до 210 км/ч)"
+    }
+  },
+  "tire-8": {
+    "id": "8",
+    "brand": "Nokian",
+    "model": "Nordman SX3",
+    "season": "summer",
+    "count": "14",
+    "price": "213",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/eef/eef752cf94f509af5b4d2c4e9bc124b1.jpg",
+      "https://autoset.by/upload/uf/565/56508ab031578f65045f76d6792b0977.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "3.5",
+      "commentsCount": "3"
+    },
+    "features": {
+      "protector": "7.5",
+      "weight": "Нет данных",
+      "exploitation": "100% асфальт",
+      "discProtector": "Нет данных",
+      "loadIndex": "97 (до 2920 кг)",
+      "speedIndex": "H (до 210 км/ч)"
+    }
+  },
+  "tire-9": {
+    "id": "9",
+    "brand": "Nokian",
+    "model": "Nordman SX3",
+    "season": "summer",
+    "count": "1",
+    "price": "199",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/eef/eef752cf94f509af5b4d2c4e9bc124b1.jpg",
+      "https://autoset.by/upload/uf/565/56508ab031578f65045f76d6792b0977.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "3.9",
+      "commentsCount": "2"
+    },
+    "features": {
+      "protector": "7.5",
+      "weight": "Нет данных",
+      "exploitation": "100% асфальт",
+      "discProtector": "Нет данных",
+      "loadIndex": "97 (до 2920 кг)",
+      "speedIndex": "H (до 210 км/ч)"
+    }
+  },
+  "tire-10": {
+    "id": "10",
+    "brand": "Nokian",
+    "model": "Hakka Green 3",
+    "season": "winter",
+    "count": "26",
+    "price": "220",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/1ad/1ad0a908da4f6dd6d407b238b3782c79.jpg",
+      "https://autoset.by/upload/resize_cache/uf/153/1000_1370_1/1535956191cdfbe0546a347e016edaf0.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.6",
+      "commentsCount": "4"
+    },
+    "features": {
+      "protector": "7.5",
+      "weight": "8.9",
+      "exploitation": "Снег и слякоть",
+      "discProtector": "Есть",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-11": {
+    "id": "11",
+    "brand": "Nokian",
+    "model": "Hakka Green 3",
+    "season": "winter",
+    "count": "30",
+    "price": "234",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/1ad/1ad0a908da4f6dd6d407b238b3782c79.jpg",
+      "https://autoset.by/upload/resize_cache/uf/153/1000_1370_1/1535956191cdfbe0546a347e016edaf0.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "4.1",
+      "commentsCount": "3"
+    },
+    "features": {
+      "protector": "7.5",
+      "weight": "8.9",
+      "exploitation": "Снег и слякоть",
+      "discProtector": "Есть",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-12": {
+    "id": "12",
+    "brand": "Nokian",
+    "model": "Hakka Green 3",
+    "season": "winter",
+    "count": "12",
+    "price": "228",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/1ad/1ad0a908da4f6dd6d407b238b3782c79.jpg",
+      "https://autoset.by/upload/resize_cache/uf/153/1000_1370_1/1535956191cdfbe0546a347e016edaf0.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "4.2",
+      "commentsCount": "6"
+    },
+    "features": {
+      "protector": "7.5",
+      "weight": "8.9",
+      "exploitation": "Снег и слякоть",
+      "discProtector": "Есть",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-13": {
+    "id": "13",
+    "brand": "Nokian",
+    "model": "LTSW 2",
+    "season": "all-year",
+    "count": "15",
+    "price": "300",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/348/348c9714a1e90210bda3cafe4691ef7f.jpg",
+      "https://autoset.by/upload/uf/720/72058fa1ec7f2c5e5cb0487f4a7a568b.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "4.8",
+      "commentsCount": "3"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "8.4",
+      "exploitation": "Асфальт и снег",
+      "discProtector": "Нет",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-14": {
+    "id": "14",
+    "brand": "Nokian",
+    "model": "LTSW 2",
+    "season": "all-year",
+    "count": "18",
+    "price": "276",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/348/348c9714a1e90210bda3cafe4691ef7f.jpg",
+      "https://autoset.by/upload/uf/720/72058fa1ec7f2c5e5cb0487f4a7a568b.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "4.7",
+      "commentsCount": "5"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "8.4",
+      "exploitation": "Асфальт и снег",
+      "discProtector": "Нет",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-15": {
+    "id": "15",
+    "brand": "Nokian",
+    "model": "LTSW 2",
+    "season": "all-year",
+    "count": "12",
+    "price": "258",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/348/348c9714a1e90210bda3cafe4691ef7f.jpg",
+      "https://autoset.by/upload/uf/720/72058fa1ec7f2c5e5cb0487f4a7a568b.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.9",
+      "commentsCount": "5"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "8.4",
+      "exploitation": "Асфальт и снег",
+      "discProtector": "Нет",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-16": {
+    "id": "16",
+    "brand": "Michelin",
+    "model": "Energy XM2+",
+    "season": "summer",
+    "count": "18",
+    "price": "300",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/5b5/5b5180794bb13759ce86b88ad5354b57.jpg",
+      "https://autoset.by/upload/uf/fe3/fe3dec3ca0de07662373074dad854552.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "4.4",
+      "commentsCount": "6"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "9.2",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-17": {
+    "id": "17",
+    "brand": "Michelin",
+    "model": "Energy XM2+",
+    "season": "summer",
+    "count": "14",
+    "price": "285",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/5b5/5b5180794bb13759ce86b88ad5354b57.jpg",
+      "https://autoset.by/upload/uf/fe3/fe3dec3ca0de07662373074dad854552.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "4.6",
+      "commentsCount": "2"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "9.2",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-18": {
+    "id": "18",
+    "brand": "Michelin",
+    "model": "Energy XM2+",
+    "season": "summer",
+    "count": "10",
+    "price": "250",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/5b5/5b5180794bb13759ce86b88ad5354b57.jpg",
+      "https://autoset.by/upload/uf/fe3/fe3dec3ca0de07662373074dad854552.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.7",
+      "commentsCount": "10"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "9.2",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "91 (до 2460 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-19": {
+    "id": "19",
+    "brand": "Michelin",
+    "model": "Primacy 4+",
+    "season": "all-year",
+    "count": "12",
+    "price": "350",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/1cb/1cbb6ea55dad50724ab2503ec16eb178.jpg",
+      "https://autoset.by/upload/uf/ded/ded60c0fa8474639da1ad079f1664cf8.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "4.7",
+      "commentsCount": "2"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "8.9",
+      "exploitation": "Асфальт и снег",
+      "discProtector": "Есть",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-20": {
+    "id": "20",
+    "brand": "Michelin",
+    "model": "Primacy 4+",
+    "season": "all-year",
+    "count": "15",
+    "price": "330",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/1cb/1cbb6ea55dad50724ab2503ec16eb178.jpg",
+      "https://autoset.by/upload/uf/ded/ded60c0fa8474639da1ad079f1664cf8.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "5",
+      "commentsCount": "1"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "8.9",
+      "exploitation": "Асфальт и снег",
+      "discProtector": "Есть",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-21": {
+    "id": "21",
+    "brand": "Michelin",
+    "model": "Primacy 4+",
+    "season": "all-year",
+    "count": "8",
+    "price": "320",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/1cb/1cbb6ea55dad50724ab2503ec16eb178.jpg",
+      "https://autoset.by/upload/uf/ded/ded60c0fa8474639da1ad079f1664cf8.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.6",
+      "commentsCount": "3"
+    },
+    "features": {
+      "protector": "8.5",
+      "weight": "8.9",
+      "exploitation": "Асфальт и снег",
+      "discProtector": "Есть",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-22": {
+    "id": "22",
+    "brand": "Yokohama",
+    "model": "iceGuard iG50+",
+    "season": "winter",
+    "count": "20",
+    "price": "400",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/355/35598728a113e33e3801c81e1e0fa5d3.jpg",
+      "https://autoset.by/upload/uf/cac/cacf3a785cc4d487396f939f3cb348ce.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "5",
+      "commentsCount": "1"
+    },
+    "features": {
+      "protector": "9.0",
+      "weight": "11.8",
+      "exploitation": "Снег и слякоть",
+      "discProtector": "Нет",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "H (до 210 км/ч)"
+    }
+  },
+  "tire-23": {
+    "id": "23",
+    "brand": "Yokohama",
+    "model": "iceGuard iG50+",
+    "season": "winter",
+    "count": "24",
+    "price": "369",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/355/35598728a113e33e3801c81e1e0fa5d3.jpg",
+      "https://autoset.by/upload/uf/cac/cacf3a785cc4d487396f939f3cb348ce.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "4.8",
+      "commentsCount": "2"
+    },
+    "features": {
+      "protector": "9.0",
+      "weight": "11.8",
+      "exploitation": "Снег и слякоть",
+      "discProtector": "Нет",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "H (до 210 км/ч)"
+    }
+  },
+  "tire-24": {
+    "id": "24",
+    "brand": "Yokohama",
+    "model": "iceGuard iG50+",
+    "season": "winter",
+    "count": "8",
+    "price": "350",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/355/35598728a113e33e3801c81e1e0fa5d3.jpg",
+      "https://autoset.by/upload/uf/cac/cacf3a785cc4d487396f939f3cb348ce.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.5",
+      "commentsCount": "4"
+    },
+    "features": {
+      "protector": "9.0",
+      "weight": "11.8",
+      "exploitation": "Снег и слякоть",
+      "discProtector": "Нет",
+      "loadIndex": "94 (до 2680 кг)",
+      "speedIndex": "H (до 210 км/ч)"
+    }
+  },
+  "tire-25": {
+    "id": "25",
+    "brand": "Toyo",
+    "model": "Proxes Comfort",
+    "season": "summer",
+    "count": "4",
+    "price": "375",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/f9a/f9a4d82a872f31b4df213b1d8f57882a.jpg",
+      "https://autoset.by/upload/uf/eec/eecb1dbac737890301a9580290570e03.jpg"
+    ],
+    "sizes": {
+      "width": "215",
+      "profile": "45",
+      "radius": "17"
+    },
+    "rating": {
+      "overageRating": "4.8",
+      "commentsCount": "12"
+    },
+    "features": {
+      "protector": "8",
+      "weight": "8.1",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "87 (до 2180 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-26": {
+    "id": "26",
+    "brand": "Toyo",
+    "model": "Proxes Comfort",
+    "season": "summer",
+    "count": "6",
+    "price": "350",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/f9a/f9a4d82a872f31b4df213b1d8f57882a.jpg",
+      "https://autoset.by/upload/uf/eec/eecb1dbac737890301a9580290570e03.jpg"
+    ],
+    "sizes": {
+      "width": "205",
+      "profile": "55",
+      "radius": "16"
+    },
+    "rating": {
+      "overageRating": "4.7",
+      "commentsCount": "20"
+    },
+    "features": {
+      "protector": "8",
+      "weight": "8.1",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "87 (до 2180 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  },
+  "tire-27": {
+    "id": "27",
+    "brand": "Toyo",
+    "model": "Proxes Comfort",
+    "season": "summer",
+    "count": "10",
+    "price": "330",
+    "imageUrl": [
+      "https://autoset.by/upload/uf/f9a/f9a4d82a872f31b4df213b1d8f57882a.jpg",
+      "https://autoset.by/upload/uf/eec/eecb1dbac737890301a9580290570e03.jpg"
+    ],
+    "sizes": {
+      "width": "195",
+      "profile": "50",
+      "radius": "15"
+    },
+    "rating": {
+      "overageRating": "4.8",
+      "commentsCount": "9"
+    },
+    "features": {
+      "protector": "8",
+      "weight": "8.1",
+      "exploitation": "100% асфальт",
+      "discProtector": "Есть",
+      "loadIndex": "87 (до 2180 кг)",
+      "speedIndex": "V (до 240 км/ч)"
+    }
+  }
+}

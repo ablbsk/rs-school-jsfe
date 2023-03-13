@@ -1,0 +1,44 @@
+.cart {
+  @extend %block-width;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @include media-md {
+    flex-direction: column;
+    gap: $indent;
+  }
+}
+
+.cart__section {
+  width: 66%;
+
+  @include media-md {
+    order: 3;
+    width: 100%;
+  }
+}
+
+.cart__catalog {
+  display: flex;
+  flex-direction: column;
+  row-gap: $indent;
+  transition: $delay*2;
+}
+
+.cart__empty {
+  @include font($font-family-base, map-get($font-size, 2xl), 100%, bold);
+  margin: $indent*4 auto;
+  text-align: center;
+  color: $color-font-message;
+  transition: $delay*2;
+  cursor: default;
+
+  @include media-md {
+    font-size: map-get($font-size, xl);
+  }
+
+  @include media-2sm {
+    margin: $indent*3 auto;
+  }
+}

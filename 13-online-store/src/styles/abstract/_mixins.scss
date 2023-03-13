@@ -1,0 +1,58 @@
+@mixin font($family, $size, $line-height: 100%, $weight: 400, $style: normal) {
+  font-family: $family;
+  font-size: $size;
+  line-height: $line-height;
+  font-style: $style;
+  font-weight: $weight;
+}
+
+@mixin icon-background($url, $height, $width: $height) {
+  display: inline-block;
+  height: $height;
+  width: $width;
+  background-image: url($url);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@mixin square-size($value) {
+  height: $value;
+  width: $value;
+}
+
+@mixin media-2xl {
+  @media (max-width: map-get($media-breakpoints, 2xl)) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media (max-width: map-get($media-breakpoints, xl)) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media (max-width: map-get($media-breakpoints, lg)) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media (max-width: map-get($media-breakpoints, md)) {
+    @content;
+  }
+}
+
+@mixin media-sm {
+  @media (max-width: map-get($media-breakpoints, sm)) {
+    @content;
+  }
+}
+
+@mixin media-2sm {
+  @media (max-width: map-get($media-breakpoints, 2sm)) {
+    @content;
+  }
+}

@@ -1,0 +1,17 @@
+.logo {
+  width: 25rem;
+  transition: $delay*2;
+  cursor: pointer;
+
+  @include media-lg {
+    width: 22.5rem;
+  }
+
+  @include media-md {
+    width: 18rem;
+  }
+
+  @include media-2sm {
+    width: 16rem;
+  }
+}

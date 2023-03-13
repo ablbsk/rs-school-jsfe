@@ -1,0 +1,72 @@
+.about-us {
+  @extend %layout;
+}
+
+.about-us__header {
+  @extend %layout-header;
+}
+
+.about-us__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.about-us__item {
+  width: 33%;
+  margin: $indent 0;
+  text-align: center;
+
+  @include media-md {
+    width: 50%;
+    margin: $indent*0.5 0;
+  }
+
+  @include media-2sm {
+    width: 100%;
+  }
+}
+
+.about-us__title {
+  @include font($font-family-base, map-get($font-size, l), 100%, bold);
+  width: 100%;
+  max-width: 30rem;
+  margin: $indent*0.5 auto;
+  color: $color-accent;
+
+  @include media-md {
+    font-size: map-get($font-size, m);
+  }
+
+  @include media-sm {
+    font-size: map-get($font-size, s);
+  }
+
+  @include media-2sm {
+    font-size: map-get($font-size, m);
+  }
+}
+
+.about-us__description {
+  @include font($font-family-base, map-get($font-size, m), 125%);
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+  color: $color-font-regular;
+  text-align: center;
+
+  @include media-md {
+    font-size: map-get($font-size, s);
+  }
+
+  @include media-sm {
+    font-size: map-get($font-size, xs);
+  }
+
+  @include media-2sm {
+    font-size: map-get($font-size, s);
+  }
+}

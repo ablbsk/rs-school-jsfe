@@ -1,0 +1,13 @@
+.header {
+  margin-bottom: $indent*0.5;
+  background-color: $color-background-additional;
+  box-shadow: $box-shadow-layout;
+}
+
+.header__main {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: $delay*2;
+}

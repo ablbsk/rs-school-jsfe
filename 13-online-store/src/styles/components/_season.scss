@@ -1,0 +1,61 @@
+.season__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.season__item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: $delay*2;
+}
+
+.season__title {
+  @extend %subheader;
+}
+
+.season__control {
+  @extend %border-element;
+  height: 5rem;
+  padding: $indent*0.25;
+  display: flex;
+  align-items: center;
+  background-color: $color-background-element;
+
+  @include media-sm {
+    padding: $indent*0.125;
+  }
+
+  @include media-2sm {
+    padding: $indent*0.25;
+  }
+}
+
+.season__check {
+  @include square-size(2rem);
+  transition: $delay*2;
+  cursor: pointer;
+
+  @include media-lg {
+    @include square-size(1.8rem);
+  }
+
+  @include media-sm {
+    @include square-size(1.4rem);
+  }
+
+  @include media-2sm {
+    @include square-size(2rem);
+  }
+}
+
+.season__label {
+  cursor: pointer;
+}

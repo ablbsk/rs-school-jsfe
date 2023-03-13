@@ -1,0 +1,48 @@
+.awards {
+  @extend %layout;
+}
+
+.awards__header {
+  @extend %layout-header;
+}
+
+.awards__container {
+  margin: $indent 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $indent;
+
+  @include media-md {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+}
+
+.awards__image {
+  width: 36rem;
+  height: auto;
+  transition: $delay*2;
+
+  @include media-md {
+    width: 24rem;
+    height: auto;
+  }
+
+  @include media-2sm {
+    width: 50%;
+    height: auto;
+  }
+}
+
+.awards__description {
+  @include font($font-family-base, map-get($font-size, m), 125%);
+  margin: 0;
+  padding: 0;
+  color: $color-font-regular;
+
+  @include media-md {
+    font-size: map-get($font-size, s);
+    text-align: center;
+  }
+}

@@ -1,0 +1,34 @@
+.not-found {
+  margin: $indent*3 auto;
+  text-align: center;
+  transition: $delay*2;
+
+  @include media-md {
+    margin: $indent*2 auto;
+  }
+}
+
+.not-found__image {
+  transition: $delay*2;
+  @include icon-background("../assets/icons/404.svg", 16rem, 40rem);
+
+  @include media-md {
+    width: 32rem;
+  }
+
+  @include media-2sm {
+    width: 26rem;
+  }
+}
+
+.not-found__title {
+  @include font($font-family-base, map-get($font-size, xl), 100%, bold);
+  margin: $indent 0;
+  color: $color-font-message;
+  transition: $delay*2;
+
+  @include media-md {
+    font-size: map-get($font-size, l);
+    margin: $indent*0.5 0;
+  }
+}

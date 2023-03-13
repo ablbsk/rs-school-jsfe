@@ -1,0 +1,66 @@
+.pagination {
+  margin: $indent*0.5 0 $indent 0;
+  display: flex;
+  justify-content: space-between;
+  gap: $indent;
+
+  @include media-md {
+    margin: 0 0 $indent 0;
+  }
+}
+
+.pagination__column {
+  display: flex;
+  flex-direction: column;
+  transition: $delay*2;
+
+  &--end {
+    align-items: end;
+  }
+}
+
+.pagination__title {
+  @extend %subheader;
+}
+
+.pagination__input {
+  @include font($font-family-base, map-get($font-size, m));
+  @extend %border-element;
+  height: 4rem;
+  width: 6rem;
+  padding: $indent*0.125;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pagination__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: $indent*0.25;
+}
+
+.pagination__page {
+  @include font($font-family-base, map-get($font-size, m), 100%);
+  width: 2rem;
+  text-align: center;
+  border: none;
+  transition: $delay*2;
+  cursor: default;
+  -moz-appearance: textfield;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.pagination__button {
+  @include font($font-family-base, map-get($font-size, m), 100%, bold);
+  @include square-size(3.6rem);
+
+  &:disabled {
+    opacity: .7;
+  }
+}

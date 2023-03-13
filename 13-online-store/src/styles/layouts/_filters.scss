@@ -1,0 +1,66 @@
+.filters {
+  @extend %block-width;
+}
+
+.filters__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: $indent*0.5;
+  transition: $delay*2;
+
+  @include media-sm {
+    display: none;
+    margin-top: $indent*0.5;
+  }
+
+  &--open {
+    display: flex;
+  }
+}
+
+.filters__cell {
+  width: 30%;
+
+  @include media-md {
+    width: 47%;
+  }
+
+  @include media-sm {
+    width: 100%;
+  }
+
+  &--button {
+    width: 30%;
+    align-self: flex-end;
+
+    @include media-md {
+      width: 47%;
+    }
+
+    @include media-2sm {
+      width: 100%;
+    }
+  }
+
+  &--v2 {
+    @include media-sm {
+      width: 47%;
+    }
+
+    @include media-2sm {
+      width: 100%;
+    }
+  }
+}
+
+.filters__button {
+  display: none;
+
+  @include media-sm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

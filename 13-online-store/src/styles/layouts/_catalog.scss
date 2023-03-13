@@ -1,0 +1,55 @@
+.catalog {
+  @extend %block-width;
+}
+
+.catalog__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: $indent;
+}
+
+.catalog__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__button {
+  border: none;
+  background-color: transparent;
+}
+
+.catalog__image {
+  @extend %media-control-element;
+  @extend %border-element;
+  background-color: $color-background-element;
+  padding: $indent*0.25;
+  cursor: pointer;
+
+  @include media-md {
+    padding: $indent*0.125;
+  }
+}
+
+.catalog__title {
+  @include font($font-family-base, map-get($font-size, m));
+  margin: $indent 0;
+  text-align: center;
+}
+
+.catalog__count {
+  font-weight: bold;
+}
+
+.catalog__select {
+  width: 30%;
+
+  @include media-md {
+    width: 47%;
+  }
+
+  @include media-2sm {
+    width: 60%;
+  }
+}

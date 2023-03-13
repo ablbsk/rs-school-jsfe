@@ -1,0 +1,66 @@
+.menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  transition: $delay*2;
+}
+
+.menu__item {
+  margin-left: $indent*0.5;
+  display: flex;
+  align-items: center;
+  transition: $delay*2;
+  cursor: default;
+
+  &--minor {
+    @include media-sm {
+      display: none;
+    }
+  }
+}
+
+.menu__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: $delay*2;
+
+  &:hover {
+    @extend %basket-icon-hover;
+
+    .menu__title {
+      color: $color-font-link-hover;
+    }
+  }
+}
+
+.menu__title {
+  @include font($font-family-base, map-get($font-size, m));
+  margin-left: $indent*0.125;
+  display: flex;
+  align-items: center;
+  color: $color-font-link;
+  transition: $delay*2;
+
+  @include media-2sm {
+    display: none;
+  }
+}
+
+.menu__count {
+  @include font($font-family-base, map-get($font-size, xs));
+  margin-left: $indent*0.125;
+  padding: $indent*0.125;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $color-font-regular-light;
+  background-color: $color-primary;
+  border-radius: $border-radius-element;
+  border: 0.2rem solid #ffffff;
+
+  @include media-md {
+    font-size: map-get($font-size, 2xs);
+  }
+}

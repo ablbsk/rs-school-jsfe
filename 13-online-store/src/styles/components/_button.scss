@@ -1,0 +1,51 @@
+.button {
+  @extend %media-control-element;
+  padding: 0.75rem;
+  color: $color-font-button;
+  background-color: $color-primary;
+  border-radius: $border-radius-button;
+  border: none;
+  transition: $delay*2;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary-hover;
+  }
+
+  &--accent {
+    background-color: $color-accent;
+
+    &:hover {
+      background-color: $color-accent-hover;
+    }
+  }
+
+  &--in-cart {
+    background-color: #5fa762;
+
+    &:hover {
+      background-color: #59865c;
+    }
+  }
+
+  &--disable {
+    background-color: $color-disable;
+    cursor: default;
+
+    &:hover {
+      background-color: $color-disable;
+    }
+  }
+
+  &--special {
+    color: $color-accent;
+    background-color: $color-background-element;
+    border: 2px solid $color-accent;
+
+    &:hover {
+      color: $color-background-element;
+      background-color: $color-accent;
+    }
+  }
+}

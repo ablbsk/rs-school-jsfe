@@ -1,0 +1,39 @@
+.link-navigation__list {
+  @extend %block-width;
+  margin: $indent*0.5 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: $indent*0.25;
+  list-style: none;
+}
+
+.link-navigation__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $indent*0.25;
+}
+
+.link-navigation__link {
+  @include font($font-family-base, map-get($font-size, s));
+  color: $color-font-regular-dark;
+  transition: $delay*2;
+
+  &:hover {
+    color: $color-primary-hover;
+  }
+
+  &--disable {
+    cursor: default;
+
+    &:hover {
+      color: $color-font-regular-dark;
+    }
+  }
+
+  @include media-sm {
+    font-size: map-get($font-size, xs);
+  }
+}

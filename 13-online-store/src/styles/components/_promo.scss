@@ -1,0 +1,137 @@
+.promo {
+  padding: $indent*0.5;
+  height: 49rem;
+  width: 30%;
+  position: relative;
+  background-color: #fff7e1;
+  border-radius: $border-radius-element;
+  color: $color-font-regular-dark;
+
+  @include media-md {
+    order: 1;
+    position: static;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.promo__header {
+  @include font($font-family-base, map-get($font-size, l), 100%, bold);
+  margin: 0;
+  transition: $delay*2;
+  cursor: default;
+
+  @include media-sm {
+    font-size: map-get($font-size, m);
+  }
+}
+
+.promo__content {
+  margin-top: $indent*0.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $indent;
+  transition: $delay*2;
+
+  @include media-md {
+    column-gap: 0;
+    justify-content: space-between;
+  }
+}
+
+.promo__column {
+  width: 100%;
+
+  @include media-md {
+    width: 47%;
+  }
+
+  @include media-2sm {
+    width: 100%;
+  }
+}
+
+.promo__list {
+  @include font($font-family-base, map-get($font-size, m), 100%);
+  display: flex;
+  flex-direction: column;
+  gap: $indent*0.25;
+  margin: 0;
+  padding: 0;
+  color: $color-font-regular-dark;
+  transition: $delay*2;
+  cursor: default;
+
+  @include media-lg {
+    font-size: map-get($font-size, s);
+  }
+}
+
+.promo__item {
+  display: flex;
+  justify-content: space-between;
+
+  &--main {
+    margin-top: $indent*0.25;
+    padding-top: $indent*0.25;
+    font-weight: bold;
+    color: $color-font-regular-dark;
+    border-top: 2px solid $color-font-regular;
+  }
+}
+
+.promo__activated-list {
+  @include font($font-family-base, map-get($font-size, m), 100%);
+  padding: 0;
+  margin: 0 0 $indent*0.5 0;
+  display: flex;
+  flex-direction: column;
+  gap: $indent*0.25;
+  list-style: none;
+  cursor: default;
+
+  @include media-lg {
+    font-size: map-get($font-size, s);
+  }
+}
+
+.promo__activated-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo__activated-code {
+  font-weight: bold;
+}
+
+.promo__activated-delete {
+  cursor: pointer;
+  transition: $delay*2;
+
+  &:hover {
+    color: $color-primary-hover;
+  }
+}
+
+.promo__activate {
+  display: flex;
+  flex-direction: column;
+  gap: $indent*0.25;
+}
+
+.promo__input {
+  @include font($font-family-base, map-get($font-size, m));
+  @extend %border-element;
+  height: 4rem;
+  padding: $indent*0.25;
+  cursor: pointer;
+
+  @include media-md {
+    font-size: map-get($font-size, s);
+  }
+}
+
+.promo__button {
+  height: 4rem;
+  width: 100%;
+}
