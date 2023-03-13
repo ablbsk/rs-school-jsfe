@@ -1,0 +1,16 @@
+.round {
+	@include square-size(1rem);
+	margin: 0 1.5rem;
+	display: inline-block;
+	background-color: $color-border;
+	border-radius: 50%;
+	transition: background-color $duration;
+
+	&--error {
+		background-color: red;
+	}
+
+	&--success {
+		background-color: forestgreen;
+	}
+}

@@ -1,0 +1,36 @@
+.icon--language-ru {
+	@include icon-background("../assets/icons/language-ru.svg", 3.5rem);
+	cursor: pointer;
+}
+
+.icon--language-en {
+	@include icon-background("../assets/icons/language-en.svg", 3.5rem);
+	cursor: pointer;
+}
+
+.icon--github {
+	@include icon-background("../assets/icons/github.svg", 2rem, 3.5rem);
+	transition: filter $duration;
+}
+
+.icon--rsschool {
+	@include icon-background("../assets/icons/rsschool.svg", 3rem, 6rem);
+	transition: filter $duration;
+}
+
+.icon--play {
+	@include icon-background("../assets/icons/play.svg", 3rem);
+	transition: filter $duration;
+}
+
+.icon--gallery {
+	@include icon-background("../assets/icons/gallery.svg", 3rem);
+	transition: filter $duration;
+}
+
+.icon--github:hover,
+.icon--rsschool:hover,
+.icon--play:hover,
+.icon--gallery:hover {
+	filter: brightness(0) saturate(100%) invert(10%) sepia(2%) saturate(0%) hue-rotate(172deg) brightness(98%) contrast(92%);
+}

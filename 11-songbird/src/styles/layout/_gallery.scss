@@ -1,0 +1,12 @@
+.gallery {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+
+	@media screen and (max-width: 641px) {
+		flex-direction: column;
+		align-items: center;
+	}
+}

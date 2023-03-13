@@ -1,0 +1,41 @@
+.result {
+	height: 75vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.result__image {
+	width: 30rem;
+	margin-bottom: 6rem;
+}
+
+.result__line {
+	@include font($font-family, $font-size-2xl, 5rem);
+	color: $color-text-light;
+	margin: 2rem;
+}
+
+.result__additional {
+	@include font($font-family, $font-size-l, 2rem);
+	color: $color-text-light;
+	margin-top: 2rem;
+}
+
+.result__score {
+	color: $color-accent;
+	font-weight: bold;
+}
+
+.result__link {
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: $duration;
+
+	&:hover {
+		color: $color-accent;
+	}
+}

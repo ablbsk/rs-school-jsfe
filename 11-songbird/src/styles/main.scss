@@ -1,0 +1,31 @@
+/* ====================== ABSTRACT ===================== */
+
+@import "abstract/constants";
+@import "abstract/mixins";
+
+/* ======================== BASE ======================= */
+
+@import "base/base";
+@import "base/normalize";
+
+/* ====================== COMPONENT ==================== */
+
+@import "components/audio";
+@import "components/answers";
+@import "components/card";
+@import "components/dependencies";
+@import "components/icon";
+@import "components/info";
+@import "components/next";
+@import "components/question";
+@import "components/quizes-list";
+@import "components/score";
+@import "components/round";
+@import "components/result";
+
+/* ======================= LAYOUT ===================== */
+
+@import "layout/footer";
+@import "layout/gallery";
+@import "layout/header";
+@import "layout/main";

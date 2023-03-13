@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-background;
+}
+
+.container {
+  min-width: 32rem;
+  max-width: 120rem;
+}

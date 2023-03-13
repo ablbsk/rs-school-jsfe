@@ -1,0 +1,133 @@
+.audio {
+	height: 6rem;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 6px auto;
+	color: white;
+	font-size: 0.75em;
+	overflow: hidden;
+}
+
+.audio__timeline {
+	width: 100%;
+	background: $color-background;
+	position: relative;
+	cursor: pointer;
+}
+
+.audio__progress {
+	background: $color-accent;
+	width: 0;
+	height: 100%;
+	transition: 0.25s;
+}
+
+.audio__controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	padding: 0 20px;
+
+	> * {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+
+.toggle-play {
+
+	&.play {
+		cursor: pointer;
+		position: relative;
+		left: 0;
+		height: 0;
+		width: 0;
+		border: 1rem solid #0000;
+		border-left: 1.75rem solid white;
+	}
+
+	&.pause {
+		height: 1.5rem;
+		width: 2rem;
+		cursor: pointer;
+		position: relative;
+
+		&:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: white;
+			content: "";
+			height: 1.75rem;
+			width: 0.25rem;
+		}
+
+		&:after {
+			position: absolute;
+			top: 0;
+			right: 0.75rem;
+			background: white;
+			content: "";
+			height: 1.75rem;
+			width: 0.25rem;
+		}
+	}
+}
+
+.audio__time {
+	@include font($font-family, $font-size-m, 2rem);
+	color: $color-text-light;
+	display: flex;
+
+	> * {
+		padding: 2px;
+	}
+
+}
+
+.volume {
+	cursor: pointer;
+
+	.volume__button {
+		width: 2rem;
+		height: 2rem;
+		display: flex;
+		align-items: center;
+		border-radius: 50%;
+		background: white;
+	}
+
+	position: relative;
+	z-index: 2;
+
+	.volume__slider {
+		position: absolute;
+		left: -3px;
+		z-index: -1;
+		width: 0;
+		height: 15px;
+		background: white;
+		box-shadow: 0 0 20px #000a;
+		border-radius: 0.6rem;
+		transition: .25s;
+
+		.volume__percentage {
+			background: $color-accent;
+			height: 100%;
+			width: 75%;
+			border-radius: 0.6rem;
+		}
+	}
+
+	&:hover {
+		.volume__slider {
+			top: 2rem;
+			left: -10.5rem;
+			width: 10rem;
+		}
+	}
+}
+
+

@@ -1,0 +1,13 @@
+.footer {
+	margin-top: 6rem;
+	flex: 0 0 auto;
+	background-color: $color-accent;
+}
+
+.footer-list {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}

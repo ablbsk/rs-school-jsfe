@@ -1,0 +1,11 @@
+.score {
+	@include font($font-family, $font-size-m, 2rem, bold);
+}
+
+.score__title {
+	color: $color-text-light;
+}
+
+.score__value {
+	color: $color-accent;
+}

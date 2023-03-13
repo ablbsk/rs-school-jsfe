@@ -1,0 +1,11 @@
+.dependencies {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 0;
+	column-gap: 2rem;
+
+	@media screen and (max-width: 641px) {
+		flex-direction: column;
+		align-items: center;
+	}
+}

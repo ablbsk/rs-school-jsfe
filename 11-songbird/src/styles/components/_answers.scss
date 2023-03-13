@@ -1,0 +1,44 @@
+.answers__list {
+	width: 50%;
+	min-width: 30%;
+	padding: 2rem;
+	list-style: none;
+	border: 0.1rem solid $color-border;
+	border-radius: 0.6rem;
+	background-color: $color-item-background;
+	filter: drop-shadow(0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+
+	@media screen and (max-width: 1101px) {
+		height: 32rem;
+	}
+
+	@media screen and (max-width: 641px) {
+		width: 90%;
+		margin-bottom: 2rem;
+	}
+
+	@media screen and (max-width: 401px) {
+		width: 80%;
+	}
+}
+
+.answers__item {
+	padding: 1.25rem 0;
+	border-bottom: 0.1rem solid $color-border;
+	border-radius: 0.6rem;
+	cursor: pointer;
+	transition: $duration;
+
+	&:hover {
+		background-color: $color-hover;
+
+		.answers__item-title {
+			color: $color-accent;
+		}
+	}
+}
+
+.answers__item-title {
+	@include font($font-family, $font-size-m, 2rem);
+	color: $color-text-light;
+}

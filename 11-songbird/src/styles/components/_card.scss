@@ -1,0 +1,87 @@
+.card {
+	width: 45%;
+	min-width: 30%;
+	padding: 2rem;
+	border: 0.1rem solid $color-border;
+	border-radius: 0.6rem;
+	background-color: $color-item-background;
+	filter: drop-shadow(0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+
+	@media screen and (max-width: 1100px) {
+		width: 40%;
+		min-width: 30%;
+	}
+
+	@media screen and (max-width: 641px) {
+		width: 90%;
+	}
+
+	@media screen and (max-width: 401px) {
+		width: 80%;
+	}
+}
+
+.card__header {
+	display: flex;
+
+	@media screen and (max-width: 1100px) {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.card__image {
+	width: 20rem;
+	height: 15rem;
+	object-fit: cover;
+	border-radius: 0.6rem;
+
+	@media screen and (max-width: 1100px) {
+		width: 25rem;
+		height: 18rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.card__list {
+	width: 100%;
+	margin: 0.5rem 0 0.5rem 2rem;
+	list-style: none;
+
+	@media screen and (max-width: 1100px) {
+		margin: 0;
+	}
+}
+
+.card__item {
+	color: $color-text-light;
+
+	&--title {
+		@include font($font-family, $font-size-l, 2rem, bold);
+		margin-bottom: 1.5rem;
+	}
+
+	&--subtitle {
+		@include font($font-family, $font-size-m, 2rem);
+		margin-bottom: 2.5rem;
+	}
+}
+
+.card__description {
+	@include font($font-family, $font-size-m, 2rem);
+	margin-top: 2rem;
+	color: $color-text-light;
+	text-align: justify;
+}
+
+.card__container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card__none {
+	@include font($font-family, $font-size-m, 2rem);
+	color: $color-text-dark;
+}

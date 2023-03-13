@@ -1,0 +1,32 @@
+.info {
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info__list {
+	display: flex;
+	list-style: none;
+}
+
+.info__item {
+	@include font($font-family, $font-size-m, 2rem, bold);
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $color-text-light;
+	cursor: default;
+
+	&--current {
+		color: $color-background;
+		background-color: $color-accent;
+		border-radius: 50%;
+	}
+
+	& + & {
+		margin-left: 2rem;
+	}
+}
