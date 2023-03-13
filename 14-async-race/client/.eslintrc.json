@@ -1,0 +1,32 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier", "import"],
+  "extends": [
+    "airbnb-typescript/base",
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "root": true,
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "class-methods-use-this": "off",
+    "import/extensions": "off",
+    "no-console": "warn",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "no-unused-expressions": "off"
+  },
+  "ignorePatterns": ["*config.js"]
+}

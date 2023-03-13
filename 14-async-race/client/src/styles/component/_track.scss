@@ -1,0 +1,59 @@
+$border: 0.3rem solid $color-font-light;
+
+.track {
+	width: 100%;
+	position: relative;
+	border-top: $border;
+	border-bottom: $border;
+}
+
+.track__controls {
+	margin: $base*0.125 $base*0.25;
+	display: flex;
+	gap: $base*0.25;
+	align-items: center;
+}
+
+.track__number {
+	@include font($font-family-base, map-get($font-size, xs), unset);
+	color: $color-accent;
+}
+
+.track__cell {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: $base*0.125;
+}
+
+.track__name {
+	@include font($font-family-base, map-get($font-size, xs), unset);
+	width: 100%;
+	position: absolute;
+	top: 0.75rem;
+	text-align: center;
+	color: $color-accent;
+	cursor: default;
+	z-index: 2;
+
+	&--crash {
+		color: red;
+	}
+}
+
+.track__track {
+	border-top: 0.3rem dashed $color-font-light;
+}
+
+.track__icon {
+	@include square-size(100px);
+	position: relative;
+	z-index: 10;
+}
+
+.track__finish {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}

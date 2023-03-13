@@ -1,0 +1,6 @@
+.garage__tracks {
+	display: flex;
+	flex-direction: column;
+	gap: $base*0.5;
+	background-color: $color-background;
+}

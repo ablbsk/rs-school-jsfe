@@ -1,0 +1,23 @@
+.nav {
+	margin: $base*0.5 0;
+}
+
+.nav__list {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: $base;
+	list-style: none;
+}
+
+.nav__link {
+	@include font($font-family-base, map-get($font-size, xs), unset, bold);
+	color: $color-font-light;
+	text-transform: uppercase;
+	transition: $delay;
+
+	&:hover {
+		color: $color-primary;
+	}
+}

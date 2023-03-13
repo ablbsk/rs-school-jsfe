@@ -1,0 +1,14 @@
+.pagination {
+  padding: $base 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-background;
+  cursor: default;
+}
+
+.pagination__label {
+  @include font($font-family-base, map-get($font-size, m), unset, bold);
+  padding: 0 $base*0.5;
+  color: $color-font-light;
+}

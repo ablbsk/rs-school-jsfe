@@ -1,0 +1,27 @@
+.entity {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: $base*0.25;
+}
+
+.entity__form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: $base*0.125;
+}
+
+.entity__input {
+	@include font($font-family-base, map-get($font-size, sm));
+	padding: $base*0.0625 $base*0.125;
+	width: 60%;
+	color: $color-font-dark;
+}
+
+.entity__color {
+	border: none;
+	padding: 0;
+	outline: none;
+	border-radius: $radius;
+}

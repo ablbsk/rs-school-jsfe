@@ -1,0 +1,40 @@
+.button {
+	@include font($font-family-base, 1rem, unset, bold);
+	min-width: 7rem;
+	padding: $base*0.125;
+	text-transform: uppercase;
+	color: $color-font-dark;
+	background-color: $color-button-background;
+	outline: none;
+	border: none;
+	border-radius: $radius;
+	transition: $delay;
+	cursor: pointer;
+
+	&:hover {
+		background-color: darken($color-button-background, 25%);
+	}
+
+	&--start {
+		color: $color-font-light;
+		background-color: forestgreen;
+
+		&:hover {
+			background-color: darken(forestgreen, 10%);
+		}
+	}
+
+	&--stop {
+		color: $color-font-light;
+		background-color: red;
+
+		&:hover {
+			background-color: darken(red, 10%);
+		}
+	}
+
+	&--special {
+		min-width: 5rem;
+		border-radius: 1rem;
+	}
+}
