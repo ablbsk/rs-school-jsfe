@@ -9,38 +9,38 @@
       <summary>Main page</summary>
       <p></p>
       <table>
-      <tr>
-        <td>Desktop view</td>
-        <td>Mobile view</td>
-      </tr>
-      <tr>
-        <td valign="top">
-          <img src="https://user-images.githubusercontent.com/42908323/162798862-4734441c-30d4-4da4-8729-885f3d644419.png" alt="Shelter main page screenshot" width="500" />
-        </td>
-        <td valign="top">
-          <img src="https://user-images.githubusercontent.com/42908323/163872102-8377cee1-8d54-4edd-86fa-d5444d20171b.png" alt="Shelter main page screenshot" width="250" />
-        </td>
-      </tr>
-     </table>
+         <tr>
+           <td>Desktop view</td>
+           <td>Mobile view</td>
+         </tr>
+         <tr>
+           <td valign="top">
+             <img src="https://user-images.githubusercontent.com/42908323/162798862-4734441c-30d4-4da4-8729-885f3d644419.png" alt="Shelter main page screenshot" width="500" />
+           </td>
+           <td valign="top">
+             <img src="https://user-images.githubusercontent.com/42908323/163872102-8377cee1-8d54-4edd-86fa-d5444d20171b.png" alt="Shelter main page screenshot" width="250" />
+           </td>
+         </tr>
+      </table>
     </details>
 
    <details>
       <summary>Our pets page</summary>
       <p></p>
       <table>
-      <tr>
-        <td>Desktop view</td>
-        <td>Mobile view</td>
-      </tr>
-      <tr>
-        <td valign="top">
-          <img src="https://user-images.githubusercontent.com/42908323/163872572-727efcb3-d8bf-4bb8-ad10-a2bdab68f465.png" alt="Shelter our page screenshot" width="500" />
-        </td>
-        <td valign="top">
-          <img src="https://user-images.githubusercontent.com/42908323/163872572-727efcb3-d8bf-4bb8-ad10-a2bdab68f465.png" alt="Shelter our page screenshot" width="250" />
-        </td>
-      </tr>
-     </table>
+         <tr>
+           <td>Desktop view</td>
+           <td>Mobile view</td>
+         </tr>
+         <tr>
+           <td valign="top">
+             <img src="https://user-images.githubusercontent.com/42908323/162799252-6fffadc3-a52f-40cc-88da-a754397d3a28.png" alt="Our pets page screenshot" width="500" />
+           </td>
+           <td valign="top">
+             <img src="https://user-images.githubusercontent.com/42908323/163872572-727efcb3-d8bf-4bb8-ad10-a2bdab68f465.png" alt="Our pets page screenshot" width="250" />
+           </td>
+         </tr>
+      </table>
     </details>
 
 3. Deploy: [Open](https://ablbsk.github.io/rs-school-jsfe/01-shelter/pages/main/index.html)
