@@ -59,15 +59,15 @@ Task | Deploy                          | Folder
 [task 14]: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md#task-async-race
 
 
-[deploy 1]: https://ablbsk.github.io/rs-school-jsfe/01-shelter/pages/main/index.html/
-[deploy 2]: https://ablbsk.github.io/rs-school-jsfe/02-online-zoo/deploy/index.html/
-[deploy 5]: https://ablbsk.github.io/rs-school-jsfe/05-virtual-keyboard/index.html/
-[deploy 6]: https://ablbsk.github.io/rs-school-jsfe/06-css-mem-slider/index.html/
-[deploy 7]: https://ablbsk.github.io/rs-school-jsfe/07-codejam/deploy/index.html/
-[deploy 8]: https://ablbsk.github.io/rs-school-jsfe/08-clean-code-s1e1/index.html/
-[deploy 11]: https://ablbsk.github.io/rs-school-jsfe/11-songbird/deploy/index.html/
-[deploy 13]: https://ablbsk.github.io/rs-school-jsfe/13-online-store/deploy/index.html/
-[deploy 14]: https://ablbsk.github.io/rs-school-jsfe/14-async-race/deploy/index.html/
+[deploy 1]: https://ablbsk.github.io/rs-school-jsfe/01-shelter/pages/main/
+[deploy 2]: https://ablbsk.github.io/rs-school-jsfe/02-online-zoo/deploy/
+[deploy 5]: https://ablbsk.github.io/rs-school-jsfe/05-virtual-keyboard/
+[deploy 6]: https://ablbsk.github.io/rs-school-jsfe/06-css-mem-slider/
+[deploy 7]: https://ablbsk.github.io/rs-school-jsfe/07-codejam/deploy/
+[deploy 8]: https://ablbsk.github.io/rs-school-jsfe/08-clean-code-s1e1/
+[deploy 11]: https://ablbsk.github.io/rs-school-jsfe/11-songbird/deploy/
+[deploy 13]: https://ablbsk.github.io/rs-school-jsfe/13-online-store/deploy/
+[deploy 14]: https://ablbsk.github.io/rs-school-jsfe/14-async-race/deploy/
 
 
 [folder 1]: https://github.com/ablbsk/rs-school-jsfe/tree/main/01-shelter
