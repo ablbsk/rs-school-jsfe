@@ -3,9 +3,9 @@ My completed exercises for Rolling Scope School JavaScript/Front-end (JSFE2022Q3
 
 **Course details:  [open](https://rs.school/js/)**
 
-### My statistics on this course  
+<h3 align="center">My statistics on this course</h3>  
 
-<table>
+<table align="center">
     <tr>
         <td valign="top">
             <img src="https://user-images.githubusercontent.com/42908323/226306450-26236a1b-a5ae-4927-ab1c-efa4b847714f.png" alt="My stats" width="400"> 
@@ -17,13 +17,15 @@ My completed exercises for Rolling Scope School JavaScript/Front-end (JSFE2022Q3
 </table>
 
 <p></p>    
-<details>
+<details align="center">
     <summary>More statistics details</summary>
     <img src="https://user-images.githubusercontent.com/42908323/226308941-bed57d69-8e93-4305-bc61-fcfc2bd454bd.png" alt="Shelter main page screenshot" width="500" />
 </details>
 
-### Tasks list  
+<h3 align="center">Tasks list</h3>  
 
+<div align="center">
+    
 Task | Deploy                          | Folder
 --- |---------------------------------| ---
 [📜 Shelter][task 1] | [🚀 shelter][deploy 1]          | [📁 01-shelter][folder 1]
@@ -41,6 +43,7 @@ Task | Deploy                          | Folder
 [📜 Online Store][task 13] | [🚀 online-store][deploy 13]    | [📁 13-online-store][folder 13]
 [📜 Async Race][task 14] | [🚀 async-race][deploy 14]      | [📁 14-async-race][folder 14]
 
+</div>
 
 
 [task 1]: https://github.com/rolling-scopes-school/tasks/blob/master/stage1/stream1/shelter/README.md#shelter
